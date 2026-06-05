@@ -1,0 +1,7 @@
+DEF FRAME cargo-frame WITH TITLE "CONSULTA CARGO" CENTERED
+    1 COLUMN 1 DOWN ROW 3.
+
+FOR EACH cargo:
+    DISPLAY cargo WITH FRAME cargo-frame.
+    HIDE FRAME cargo-frame.
+END.
