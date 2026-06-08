@@ -3,11 +3,22 @@ DEF FRAME depe-frame WITH TITLE "CONSULTA DEPENDENTE" CENTERED
 
 DEF BUFFER b-displayFunc FOR funcionario.
 
-FOR EACH dependente:
-    FIND FIRST b-displayFunc 
-        WHERE b-displayFunc.idFunc = dependente.idFunc NO-LOCK NO-ERROR.
-
-    DISPLAY dependente WITH FRAME depe-frame.
-    DISPLAY b-displayFunc WITH FRAME depe-frame.
-    HIDE FRAME depe-frame.
+REPEAT:
+    PROMPT-FOR dependente.idDepe WITH FRAME depe-frame.
+    FIND dependente WHERE dependente.idDepe = INPUT dependente.idDepe NO-LOCK NO-ERROR NO-WAIT.
+    
+    IF AVAIL dependente THEN DO:
+        FIND FIRST b-displayFunc 
+            WHERE b-displayFunc.idFunc = dependente.idFunc NO-LOCK NO-ERROR NO-WAIT.
+    
+        DISPLAY dependente WITH FRAME depe-frame.
+        DISPLAY b-displayFunc.idFunc LABEL "Cod func" b-displayFunc.nome 
+            LABEL "Nome do func" WITH FRAME depe-frame.
+            
+        HIDE FRAME depe-frame.
+    END.
+    
+    ELSE DO:
+        MESSAGE "Erro: dependente não foi encontrado!" VIEW-AS ALERT-BOX.
+    END.
 END.

@@ -6132,3 +6132,741 @@
 [2026/06/05@11:22:29.136-0300] P-15496      T-12264 I ABL     2: (452)   Login por guilhermedd no CON:. 
 [2026/06/05@11:22:29.644-0300] P-15496      T-12264 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
 [2026/06/05@11:22:37.817-0300] P-15496      T-12264 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@11:59:46.190-0300] P-14388      T-13128 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@11:59:48.877-0300] P-16908      T-7268  I SHUT    1: (452)   Login por guilhermedd no batch. 
+[2026/06/05@11:59:49.939-0300] P-16908      T-7268  I SHUT    1: (542)   Shutdown do servidor iniciado pelo guilhermedd no batch. 
+[2026/06/05@11:59:50.420-0300] P-7088       T-1204  I BROKER  0: (15193) O encerramento normal do banco de dados continuará por 10 Min 0 Sec se necessário. 
+[2026/06/05@11:59:50.451-0300] P-7088       T-1204  I BROKER  0: (2248)  Inicio do shutdown normal 
+[2026/06/05@11:59:51.487-0300] P-7088       T-1204  I BROKER  0: (2263)  reenviando solicitacao de shutdown para 0 usuario(s). 
+[2026/06/05@11:59:55.949-0300] P-7088       T-1204  I BROKER  0: (15109) No fechamento do banco de dados o número de transações ao vivo é 0. 
+[2026/06/05@11:59:55.980-0300] P-7088       T-1204  I BROKER  0: (15743) Conclusão do log Before Image no bloco 161 Offset 2198. 
+[2026/06/05@11:59:56.025-0300] P-7088       T-1204  I BROKER  0: (453)   Logout por guilhermedd no batch. 
+[2026/06/05@11:59:56.062-0300] P-7088       T-1204  I BROKER   : (16869) Memória compartilhada removida com segment_id: 2212555259904 
+[2026/06/05@11:59:56.092-0300] P-7088       T-1204  I BROKER   : (334)   Fim de sessão Multi-user. 
+[2026/06/05@11:59:57.017-0300] P-16908      T-7268  I SHUT    1: (453)   Logout por guilhermedd no batch. 
+
+                Fri Jun  5 13:41:17 2026
+[2026/06/05@13:41:17.989-0300] P-18216      T-4092  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.db encontra-se em um disco de rede. 
+[2026/06/05@13:41:18.150-0300] P-18216      T-4092  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.d1 encontra-se em um disco de rede. 
+[2026/06/05@13:41:18.437-0300] P-18216      T-4092  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.b1 encontra-se em um disco de rede. 
+[2026/06/05@13:41:18.752-0300] P-18216      T-4092  I BROKER  0: (333)   Inicio de sessão multi-usuário. 
+[2026/06/05@13:41:18.758-0300] P-18216      T-4092  I BROKER  0: (15321) Inicialização do log Before Image no bloco 161  offset 2198. 
+[2026/06/05@13:41:19.398-0300] P-18216      T-4092  I BROKER  0: (452)   Login por guilhermedd no batch. 
+[2026/06/05@13:41:19.408-0300] P-18216      T-4092  I BROKER  0: (19117) Esta instalação está licenciada para: Cocamar Cooperativa Agroindustr por C:\programas\Progress\OpenEdge\progress.cfg 
+[2026/06/05@13:41:19.408-0300] P-18216      T-4092  I BROKER  0: (19116) Produto: Progress Dev Studio OE instalado com o número de série: 6138374 expiração: None. 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (4234)  PROGRESS OpenEdge versão 12.2 build 1512 SP16 em WINNT . 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (4281)  Servidor iniciado por guilhermedd em batch. 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (6574)  Iniciado usando PID: 18216. 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (15219) Criptografia habilitada: 0 
+[2026/06/05@13:41:19.411-0300] P-18216      T-4092  I BROKER  0: (15824) Multi-tenancy ativado:0 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (15824) Table Partitioning ativado:0 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (15824) Authentication Gateway ativado:0 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (19388) LRU mechanism enabled. 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (4282)  Arquivo de parâmetros: Not Enabled. 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (9336)  Criado área de memória compartilhada com segment_id: 1 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (4250)  Tamanho do Cluster de Before-Image: 524288. 
+[2026/06/05@13:41:19.412-0300] P-18216      T-4092  I BROKER  0: (4251)  Tamanho do Bloco de Before-Image: 8192. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (13873) Lista de diretórios de arquivamento de gerenciamento After-image (-aiarcdir): Not Enabled. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (13874) Criar diretório(s) de arquivamento de gerenciamento After-image (-aiarcdircreate): Not Enabled. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (13872) Intervalo de arquivamento de gerenciamento After-image (-aiarcinterval): -1. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (4256)  Número de buffers After-Image (-aibufs): 64 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (4254)  Atraso no After-Image (-aistall): Not Enabled. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (17555) Número inicial do índice para a faixa de estatísticas (-baseindex): 1. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (19091) Número de LOB inicial para o intervalo estatístico (-baselob): 1 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (17554) Número inicial da tabela para a faixa de estatísticas (-basetable): 1. 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (18406) Número do índice inicial por usuário para o intervalo estatístico (-baseuserindex): 1 
+[2026/06/05@13:41:19.413-0300] P-18216      T-4092  I BROKER  0: (19092) Número de LOB inicial por usuário para o intervalo estatístico (-baseuserlob): 1 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (18404) Número inicial de tabela por usuário para o intervalo estatístico (-baseusertable): 1 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (4252)  Numero de Buffers de Before-Image (-bibufs): 64. 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (6552)  Atraso no Before-Image (-bistall): Desabilitado. 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (9238)  Tamanho de Threshold do arquivo de BI (-bithold): 0.0   Bytes. 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (12812) BIW writer delay (-bwdelay): 0 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (12813) Cursores de índice permitidos (-c): 84. 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (18495) Tamanho do cache do CDC (-cdcsize): 200k bytes 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (12265) Caminho de armazenamento do certificado SSL (-certstorepath): Not Enabled 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (4264)  Conjunto de caracteres (-cpinternal): UTF-8. 
+[2026/06/05@13:41:19.414-0300] P-18216      T-4092  I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (4235)  Nome físico da base de dados (-db): O:/Complexo Maringa/Terceiro/Station/Geral/guilhermedd/database/construtora/construtora. 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18558) Diretório de diagnóstico (-diagDir): Not Enabled 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18576) Valor dos eventos do diagnóstico (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18560) Nível do evento de diagnóstico (-diagEvtLevel): 0 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18561) Separador de campos de diagnóstico (-diagFS): ' ' 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18579) Formato dos dados do diagnóstico (-diagFormat): csv 
+[2026/06/05@13:41:19.415-0300] P-18216      T-4092  I BROKER  0: (18562) Tamanho da pausa do diagnóstico (-diagPause): 0 
+[2026/06/05@13:41:19.416-0300] P-18216      T-4092  I BROKER  0: (18563) Valor do prefixo do diagnóstico (-diagPrefix): diagEvent_ 
+[2026/06/05@13:41:19.416-0300] P-18216      T-4092  I BROKER  0: (18580) Procedimento do diagnóstico (-diagProc): Not Enabled 
+[2026/06/05@13:41:19.416-0300] P-18216      T-4092  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled. 
+[2026/06/05@13:41:19.416-0300] P-18216      T-4092  I BROKER  0: (4236)  Tipo de Base de Dados (-dt): PROGRESS. 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (15218) Tamanho do cache de criptografia (-ecsize): 1000 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (12814) Atraso do grupo (-groupdelay): 10 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (4242)  Número de entradas na tabela de hash (-hash): 887. 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19195) Porcentagem de latch da tabela codificada do pool de buffer (-hashLatchFactor): 10 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (4244)  Crash Recovery (-i): Enabled. 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (17557) Número de índices incluídos na coleta de estatísticas: (-indexrangesize) 50. 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (14268) Versão TCP/IP (-ipver) : IPV4 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (12263) Nome do SSL Key Alias (-keyalias): Not Enabled. 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19216) Diretório do arquivo de histórico do banco de dados (-lgArchiveDir): Not Enabled 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19215) Arquivar arquivo de histórico do banco de dados antes do truncamento (-lgArchiveEnable): Not Enabled 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19213) Frequência do truncamento do arquivo de histórico do banco de dados (-lgTruncateFrequency): -1 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19214) Tamanho máximo que o arquivo de histórico do banco de dados pode atingir antes do truncamento (-lgTruncateSize): 0MB 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19212) Horário do dia para truncamento do arquivo de histórico do banco de dados (-lgTruncateTime): 00:00 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19137) Limitar a carga do arquivo .lg (-limitLgPayload): Not Enabled 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (12815) Bloquear tamanho da tabela no hash de tabela (-lkhash): 1237 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (17805) Algoritmo de liberação de bloqueio original (-lkrela): Not Enabled 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (19090) Número de LOBs incluídos na coleção estatística (-lobrangesize): 50 
+[2026/06/05@13:41:19.456-0300] P-18216      T-4092  I BROKER  0: (17560) Número de LRU force skips (-lruskips): 100 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17561) Número de LRU2 force skips (-lru2skips): 0 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (13953) Número máximo da área (-maxArea): 32000. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (5649)  Maximo de Portas para Auto Servers (-maxport): 0. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (12540) Tamanho da tabela de transações JTA (-maxxids):  100 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (5648)  Minimo de Portas para os Auto Servers (-minport): 0. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17564) Tamanho do cache da partição de multi-tenancy (-mtpmsize): 1024 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (4260)  Número máximo de usuários (-n): 21. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17566) Tempo mínimo para desligamento após a primeira exaustão do -spin (-nap): 10. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17565) Tempo máximo para desligamento após exaustão do -spin (-napmax): 250. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (18522) SSL Sem verificação de Host (-nohostverify): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17807) Desabilitar mecanismo de LRU (-nolru): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (12273) SSL Sem cache de sessão (-nosessioncache): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (18521) SSL Sem reutilização de sessão (-nosessionreuse): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (16689) Regulador de Login (-nGovernor): 0 de 32000. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (18398) Número de estatísticas de ponto de verificação do registro (-numCheckpointStats): 32 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (19122) Omitir mensagens do arquivo .lg (-omitLgMsgs):  
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (8527)  Tamanho do cache de armazenamento de objeto (-omsize): 1024 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (13870) Database Service Manager - Tamanho da fila IPC (-pica): 128.0 KBytes. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (19347) Tempo máximo de inatividade se bloqueado para acessar fila PICA (-picanap): 1 ms. 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (17802) Segmentos de memória compartilhada bloqueados (-pinshm): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (16953) Usar mecanismo de pollset para o cliente/servidor (-pollset): Not Enabled 
+[2026/06/05@13:41:19.457-0300] P-18216      T-4092  I BROKER  0: (16955) Atrasar primeira mensagem de pré-busca (-prefetchDelay): Enabled 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (16956) Porcentagem de preenchimento da mensagem de pré-busca (-prefetchFactor): 100 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (16957) Mínimo de registros na mensagem de pré-busca (-prefetchNumRecs): 64 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (16958) Prioridade de sondagem da fila de suspensão (-prefetchPriority): 1 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17568) Tempo do ciclo de varredura da fila do APW em milissegundos (-pwqdelay): 100. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17569) Comprimento mínimo da fila do APW antes da gravação (-pwqmin): 1. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17570) Tempo do ciclo de varredura do buffer do APW em milissegundos (-pwqdelay): 1. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (4247)   I/O no arquivo Before-Image (-r -R): Reliable. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17563) Fator de profundidade de pesquisa de cadeia livre de registro (-recspacesearchdepth): 5 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (19133) Fila do esquema Lock Wait (-schlockwq): Not Enabled 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (18478) Tamanho do cache de segurança (-secsize): 512 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (6526)  Número de semaphore sets (-semsets) 3. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (12264) Timeout da sessão SSL (-sessiontimeout): 0. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (13924) Tamanho máximo do segmento da memória compartilhada (-shmsegsize) 1024 MB. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (4243)  Spin lock (-spin): 1. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17803) Criptografia SSL para conexões TCP/IP (-ssl): Not Enabled 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (-----) STS Socket Reuse (-stsSocketReuse): Yes
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (18525) Padrão do nível de registro de depuração do STS (-stslogginglevel): 0 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (17556) Número de tabelas incluídas na coleta de estatísticas: (-tablerangesize) 50. 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (19151) Servidor do banco de dados em thread (-threadedServer): Not Enabled 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (19159) Tamanho da pilha de thread de servidores de banco de dados em thread (-threadedServerStack): 512Kb 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (18407) Número de índices por usuário incluído na coleção estatística (-userindexrangesize): 50 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (19089) Número de lobs por usuário incluído na coleção estatística (-userlobrangesize): 50 
+[2026/06/05@13:41:19.458-0300] P-18216      T-4092  I BROKER  0: (18118) Tempo de notificação do usuário (-userNotifyTime): 600 segundos 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (18405) Número de tabelas por usuário incluído na coleção estatística (-usertablerangesize): 50 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (4239)  Número de buffers de base de dados (-B): 3000. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (17562) Número de Buffers de banco de dados alternativos (-B2): 0. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (9422)  Número máximo de private buffers por usuário (-Bpmax): 64. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (13869) Database Service Manager - Serviços a serem iniciados (-DBService): Not Enabled. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (10535) Modo Enhanced Read-Only (-ERO): Not Enabled 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (4237)  Acesso Forçado (-F): Not Enabled. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (4249)  Intervalo para truncar Before-Image (-G): 0. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (4261)  Nome do Host (-H): MIC02519. 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/06/05@13:41:19.459-0300] P-18216      T-4092  I BROKER  0: (4241)  Tamanho da tabela de lock (-L): 8192. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (16688) Regulador de Bloqueio (-LGovernor): 0%. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4257)  Número máximo de clientes por servidor (-Ma): 5. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4245)  Retardo na descarga do Before-Image (-Mf): 3. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4259)  Número mínimo de clientes por servidor (-Mi): 1. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (12818) Tamanho do Message Buffer (-Mm): 0 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4258)  Número máximo de servidores (-Mn): 5. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (5647)  Maximo de Servers por Broker (-Mpb): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4240)  Excesso no Tamanho da Memória Compartilhada (-Mxs): 39. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4263)  Tipo de protocolo (-N): . 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (16954) Tempo de espera da mensagem de rede do servidor (-Nmsgwait): 2 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10357) Tempo limite da conexão de cliente pendente (-PendConnTimeout): 0 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (4262)  Nome do serviço (-S): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (17804) Suporte para o grupo de servidores de agente (-ServerType): BOTH 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (19342) Estatística de atualização autônoma do SQL (-SQLAutoStats): OFF 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10028) Número máximo de cursores abertos para o SQL Server (-SQLCursors): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (17567) Número de segundos que um cliente SQL deve esperar por um bloqueio de registro (-SQLLockWaitTimeout): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (19134) Identificador de rowid do SQL (-SQLQuotedRowid): Non-standard 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10026) Tamanho da estrutura de Stack para o SQL Server (-SQLStack): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10027) Tamanho do SQL Server Statement Cache (-SQLStmtCache): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10029) Tamanho [em unidades de 1Kbyte] do buffer de tabela temporária do processo SQL Server (-SQLTempStoreBuff): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10030) Tamanho [unidades em 1Kbyte] da área de armazenamento da tabela temporária em disco do processo SQL Server (-SQLTempStoreDisk): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (10031) Tamanho [unidades em 1Kbyte] da página de dados da tabela temporária do processo SQL Server (-SQLTempStorePageSize): 0. 
+[2026/06/05@13:41:19.460-0300] P-18216      T-4092  I BROKER  0: (17955) Truncamento de dados autorizado (-SQLTruncateTooLarge): OFF 
+[2026/06/05@13:41:19.461-0300] P-18216      T-4092  I BROKER  0: (18156) Atualização de esquema autônomo SQL (-SQLWidthUpdate): OFF 
+[2026/06/05@13:41:19.461-0300] P-18216      T-4092  I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/06/05@13:41:19.461-0300] P-18216      T-4092  I BROKER  0: (17717) Limite de tentativas de bloqueio de TXE (-TXERetryLimit): 0. 
+[2026/06/05@13:41:19.461-0300] P-18216      T-4092  I BROKER  0: (13896) Limite para ignorar o bloqueio TXE Commit (-TXESkipLimit): 10000. 
+[2026/06/05@13:41:19.776-0300] P-18216      T-4092  I BROKER  0: (10836) Conexões ao Banco de Dados não são permitidas neste momento. 
+[2026/06/05@13:41:19.778-0300] P-18216      T-4092  I BROKER  0: (10471) Conexões de Banco de Dados foram habilitadas. 
+[2026/06/05@13:41:21.577-0300] P-9904       T-15396 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@13:41:22.404-0300] P-9904       T-15396 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/05@14:34:18.822-0300] P-12872      T-17772 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@14:34:19.361-0300] P-12872      T-17772 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@14:34:32.507-0300] P-12872      T-17772 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@14:34:40.141-0300] P-10720      T-6492  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@14:34:40.591-0300] P-10720      T-6492  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@14:35:54.451-0300] P-10720      T-6492  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@14:42:21.731-0300] P-5248       T-16684 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@14:42:22.265-0300] P-5248       T-16684 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@14:46:25.829-0300] P-5248       T-16684 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@14:47:36.051-0300] P-13528      T-13836 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@14:47:36.582-0300] P-13528      T-13836 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@14:47:46.819-0300] P-13528      T-13836 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:16:03.018-0300] P-16460      T-16468 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:16:03.585-0300] P-16460      T-16468 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:16:08.708-0300] P-16460      T-16468 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:16:33.917-0300] P-13824      T-18992 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:16:34.377-0300] P-13824      T-18992 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:16:44.614-0300] P-13824      T-18992 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:16:58.174-0300] P-18528      T-4664  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:16:58.622-0300] P-18528      T-4664  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:17:08.763-0300] P-18528      T-4664  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:18:38.550-0300] P-12268      T-16840 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:18:38.996-0300] P-12268      T-16840 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:18:41.069-0300] P-12268      T-16840 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:18:57.233-0300] P-11460      T-9132  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:18:57.716-0300] P-11460      T-9132  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:19:06.872-0300] P-11460      T-9132  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:29:23.808-0300] P-3388       T-5204  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:29:24.257-0300] P-3388       T-5204  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:30:05.782-0300] P-3388       T-5204  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:30:27.979-0300] P-19448      T-880   I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:30:28.431-0300] P-19448      T-880   I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:30:32.576-0300] P-19448      T-880   I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:31:40.210-0300] P-17832      T-13184 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:31:40.673-0300] P-17832      T-13184 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:31:44.785-0300] P-17832      T-13184 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:31:57.331-0300] P-9208       T-6872  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:31:57.828-0300] P-9208       T-6872  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:32:05.031-0300] P-9208       T-6872  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:32:15.996-0300] P-18328      T-17056 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:32:16.455-0300] P-18328      T-17056 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:32:20.593-0300] P-18328      T-17056 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:32:40.936-0300] P-18568      T-18448 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/05@15:32:41.388-0300] P-18568      T-18448 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/05@15:32:58.611-0300] P-18568      T-18448 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:34:02.317-0300] P-9904       T-15396 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/05@15:34:03.599-0300] P-19116      T-8788  I SHUT    1: (452)   Login por guilhermedd no batch. 
+[2026/06/05@15:34:04.355-0300] P-19116      T-8788  I SHUT    1: (542)   Shutdown do servidor iniciado pelo guilhermedd no batch. 
+[2026/06/05@15:34:04.849-0300] P-18216      T-4092  I BROKER  0: (15193) O encerramento normal do banco de dados continuará por 10 Min 0 Sec se necessário. 
+[2026/06/05@15:34:04.849-0300] P-18216      T-4092  I BROKER  0: (2248)  Inicio do shutdown normal 
+[2026/06/05@15:34:05.860-0300] P-18216      T-4092  I BROKER  0: (2263)  reenviando solicitacao de shutdown para 0 usuario(s). 
+[2026/06/05@15:34:10.213-0300] P-18216      T-4092  I BROKER  0: (15109) No fechamento do banco de dados o número de transações ao vivo é 0. 
+[2026/06/05@15:34:10.213-0300] P-18216      T-4092  I BROKER  0: (15743) Conclusão do log Before Image no bloco 163 Offset 3659. 
+[2026/06/05@15:34:10.229-0300] P-18216      T-4092  I BROKER  0: (453)   Logout por guilhermedd no batch. 
+[2026/06/05@15:34:10.236-0300] P-18216      T-4092  I BROKER   : (16869) Memória compartilhada removida com segment_id: 2467134898176 
+[2026/06/05@15:34:10.236-0300] P-18216      T-4092  I BROKER   : (334)   Fim de sessão Multi-user. 
+[2026/06/05@15:34:10.419-0300] P-19116      T-8788  I SHUT    1: (453)   Logout por guilhermedd no batch. 
+
+                Mon Jun  8 08:20:28 2026
+[2026/06/08@08:20:28.335-0300] P-628        T-14528 I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.db encontra-se em um disco de rede. 
+[2026/06/08@08:20:28.609-0300] P-628        T-14528 I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.d1 encontra-se em um disco de rede. 
+[2026/06/08@08:20:28.888-0300] P-628        T-14528 I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.b1 encontra-se em um disco de rede. 
+[2026/06/08@08:20:29.264-0300] P-628        T-14528 I BROKER  0: (333)   Inicio de sessão multi-usuário. 
+[2026/06/08@08:20:29.265-0300] P-628        T-14528 I BROKER  0: (15321) Inicialização do log Before Image no bloco 163  offset 3659. 
+[2026/06/08@08:20:29.892-0300] P-628        T-14528 I BROKER  0: (452)   Login por guilhermedd no batch. 
+[2026/06/08@08:20:30.238-0300] P-628        T-14528 I BROKER  0: (19117) Esta instalação está licenciada para: Cocamar Cooperativa Agroindustr por C:\programas\Progress\OpenEdge\progress.cfg 
+[2026/06/08@08:20:30.238-0300] P-628        T-14528 I BROKER  0: (19116) Produto: Progress Dev Studio OE instalado com o número de série: 6138374 expiração: None. 
+[2026/06/08@08:20:30.238-0300] P-628        T-14528 I BROKER  0: (4234)  PROGRESS OpenEdge versão 12.2 build 1512 SP16 em WINNT . 
+[2026/06/08@08:20:30.239-0300] P-628        T-14528 I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/06/08@08:20:30.239-0300] P-628        T-14528 I BROKER  0: (4281)  Servidor iniciado por guilhermedd em batch. 
+[2026/06/08@08:20:30.239-0300] P-628        T-14528 I BROKER  0: (6574)  Iniciado usando PID: 628. 
+[2026/06/08@08:20:30.239-0300] P-628        T-14528 I BROKER  0: (15219) Criptografia habilitada: 0 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (15824) Multi-tenancy ativado:0 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (15824) Table Partitioning ativado:0 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (15824) Authentication Gateway ativado:0 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (19388) LRU mechanism enabled. 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (4282)  Arquivo de parâmetros: Not Enabled. 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (9336)  Criado área de memória compartilhada com segment_id: 1 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (4250)  Tamanho do Cluster de Before-Image: 524288. 
+[2026/06/08@08:20:30.240-0300] P-628        T-14528 I BROKER  0: (4251)  Tamanho do Bloco de Before-Image: 8192. 
+[2026/06/08@08:20:30.241-0300] P-628        T-14528 I BROKER  0: (13873) Lista de diretórios de arquivamento de gerenciamento After-image (-aiarcdir): Not Enabled. 
+[2026/06/08@08:20:30.241-0300] P-628        T-14528 I BROKER  0: (13874) Criar diretório(s) de arquivamento de gerenciamento After-image (-aiarcdircreate): Not Enabled. 
+[2026/06/08@08:20:30.241-0300] P-628        T-14528 I BROKER  0: (13872) Intervalo de arquivamento de gerenciamento After-image (-aiarcinterval): -1. 
+[2026/06/08@08:20:30.241-0300] P-628        T-14528 I BROKER  0: (4256)  Número de buffers After-Image (-aibufs): 64 
+[2026/06/08@08:20:30.241-0300] P-628        T-14528 I BROKER  0: (4254)  Atraso no After-Image (-aistall): Not Enabled. 
+[2026/06/08@08:20:30.242-0300] P-628        T-14528 I BROKER  0: (17555) Número inicial do índice para a faixa de estatísticas (-baseindex): 1. 
+[2026/06/08@08:20:30.242-0300] P-628        T-14528 I BROKER  0: (19091) Número de LOB inicial para o intervalo estatístico (-baselob): 1 
+[2026/06/08@08:20:30.242-0300] P-628        T-14528 I BROKER  0: (17554) Número inicial da tabela para a faixa de estatísticas (-basetable): 1. 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (18406) Número do índice inicial por usuário para o intervalo estatístico (-baseuserindex): 1 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (19092) Número de LOB inicial por usuário para o intervalo estatístico (-baseuserlob): 1 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (18404) Número inicial de tabela por usuário para o intervalo estatístico (-baseusertable): 1 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (4252)  Numero de Buffers de Before-Image (-bibufs): 64. 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (6552)  Atraso no Before-Image (-bistall): Desabilitado. 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (9238)  Tamanho de Threshold do arquivo de BI (-bithold): 0.0   Bytes. 
+[2026/06/08@08:20:30.243-0300] P-628        T-14528 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/06/08@08:20:30.244-0300] P-628        T-14528 I BROKER  0: (12812) BIW writer delay (-bwdelay): 0 
+[2026/06/08@08:20:30.244-0300] P-628        T-14528 I BROKER  0: (12813) Cursores de índice permitidos (-c): 84. 
+[2026/06/08@08:20:30.244-0300] P-628        T-14528 I BROKER  0: (18495) Tamanho do cache do CDC (-cdcsize): 200k bytes 
+[2026/06/08@08:20:30.244-0300] P-628        T-14528 I BROKER  0: (12265) Caminho de armazenamento do certificado SSL (-certstorepath): Not Enabled 
+[2026/06/08@08:20:30.244-0300] P-628        T-14528 I BROKER  0: (4264)  Conjunto de caracteres (-cpinternal): UTF-8. 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (4235)  Nome físico da base de dados (-db): O:/Complexo Maringa/Terceiro/Station/Geral/guilhermedd/database/construtora/construtora. 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (18558) Diretório de diagnóstico (-diagDir): Not Enabled 
+[2026/06/08@08:20:30.245-0300] P-628        T-14528 I BROKER  0: (18576) Valor dos eventos do diagnóstico (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18560) Nível do evento de diagnóstico (-diagEvtLevel): 0 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18561) Separador de campos de diagnóstico (-diagFS): ' ' 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18579) Formato dos dados do diagnóstico (-diagFormat): csv 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18562) Tamanho da pausa do diagnóstico (-diagPause): 0 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18563) Valor do prefixo do diagnóstico (-diagPrefix): diagEvent_ 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (18580) Procedimento do diagnóstico (-diagProc): Not Enabled 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled. 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (4236)  Tipo de Base de Dados (-dt): PROGRESS. 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (15218) Tamanho do cache de criptografia (-ecsize): 1000 
+[2026/06/08@08:20:30.246-0300] P-628        T-14528 I BROKER  0: (12814) Atraso do grupo (-groupdelay): 10 
+[2026/06/08@08:20:30.248-0300] P-628        T-14528 I BROKER  0: (4242)  Número de entradas na tabela de hash (-hash): 887. 
+[2026/06/08@08:20:30.249-0300] P-628        T-14528 I BROKER  0: (19195) Porcentagem de latch da tabela codificada do pool de buffer (-hashLatchFactor): 10 
+[2026/06/08@08:20:30.249-0300] P-628        T-14528 I BROKER  0: (4244)  Crash Recovery (-i): Enabled. 
+[2026/06/08@08:20:30.249-0300] P-628        T-14528 I BROKER  0: (17557) Número de índices incluídos na coleta de estatísticas: (-indexrangesize) 50. 
+[2026/06/08@08:20:30.249-0300] P-628        T-14528 I BROKER  0: (14268) Versão TCP/IP (-ipver) : IPV4 
+[2026/06/08@08:20:30.249-0300] P-628        T-14528 I BROKER  0: (12263) Nome do SSL Key Alias (-keyalias): Not Enabled. 
+[2026/06/08@08:20:30.250-0300] P-628        T-14528 I BROKER  0: (19216) Diretório do arquivo de histórico do banco de dados (-lgArchiveDir): Not Enabled 
+[2026/06/08@08:20:30.250-0300] P-628        T-14528 I BROKER  0: (19215) Arquivar arquivo de histórico do banco de dados antes do truncamento (-lgArchiveEnable): Not Enabled 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (19213) Frequência do truncamento do arquivo de histórico do banco de dados (-lgTruncateFrequency): -1 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (19214) Tamanho máximo que o arquivo de histórico do banco de dados pode atingir antes do truncamento (-lgTruncateSize): 0MB 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (19212) Horário do dia para truncamento do arquivo de histórico do banco de dados (-lgTruncateTime): 00:00 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (19137) Limitar a carga do arquivo .lg (-limitLgPayload): Not Enabled 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (12815) Bloquear tamanho da tabela no hash de tabela (-lkhash): 1237 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (17805) Algoritmo de liberação de bloqueio original (-lkrela): Not Enabled 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (19090) Número de LOBs incluídos na coleção estatística (-lobrangesize): 50 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (17560) Número de LRU force skips (-lruskips): 100 
+[2026/06/08@08:20:30.367-0300] P-628        T-14528 I BROKER  0: (17561) Número de LRU2 force skips (-lru2skips): 0 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (13953) Número máximo da área (-maxArea): 32000. 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (5649)  Maximo de Portas para Auto Servers (-maxport): 0. 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (12540) Tamanho da tabela de transações JTA (-maxxids):  100 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (5648)  Minimo de Portas para os Auto Servers (-minport): 0. 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (17564) Tamanho do cache da partição de multi-tenancy (-mtpmsize): 1024 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (4260)  Número máximo de usuários (-n): 21. 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (17566) Tempo mínimo para desligamento após a primeira exaustão do -spin (-nap): 10. 
+[2026/06/08@08:20:30.368-0300] P-628        T-14528 I BROKER  0: (17565) Tempo máximo para desligamento após exaustão do -spin (-napmax): 250. 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (18522) SSL Sem verificação de Host (-nohostverify): Not Enabled 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (17807) Desabilitar mecanismo de LRU (-nolru): Not Enabled 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (12273) SSL Sem cache de sessão (-nosessioncache): Not Enabled 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (18521) SSL Sem reutilização de sessão (-nosessionreuse): Not Enabled 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (16689) Regulador de Login (-nGovernor): 0 de 32000. 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (18398) Número de estatísticas de ponto de verificação do registro (-numCheckpointStats): 32 
+[2026/06/08@08:20:30.369-0300] P-628        T-14528 I BROKER  0: (19122) Omitir mensagens do arquivo .lg (-omitLgMsgs):  
+[2026/06/08@08:20:30.370-0300] P-628        T-14528 I BROKER  0: (8527)  Tamanho do cache de armazenamento de objeto (-omsize): 1024 
+[2026/06/08@08:20:30.370-0300] P-628        T-14528 I BROKER  0: (13870) Database Service Manager - Tamanho da fila IPC (-pica): 128.0 KBytes. 
+[2026/06/08@08:20:30.372-0300] P-628        T-14528 I BROKER  0: (19347) Tempo máximo de inatividade se bloqueado para acessar fila PICA (-picanap): 1 ms. 
+[2026/06/08@08:20:30.372-0300] P-628        T-14528 I BROKER  0: (17802) Segmentos de memória compartilhada bloqueados (-pinshm): Not Enabled 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (16953) Usar mecanismo de pollset para o cliente/servidor (-pollset): Not Enabled 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (16955) Atrasar primeira mensagem de pré-busca (-prefetchDelay): Enabled 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (16956) Porcentagem de preenchimento da mensagem de pré-busca (-prefetchFactor): 100 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (16957) Mínimo de registros na mensagem de pré-busca (-prefetchNumRecs): 64 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (16958) Prioridade de sondagem da fila de suspensão (-prefetchPriority): 1 
+[2026/06/08@08:20:30.373-0300] P-628        T-14528 I BROKER  0: (17568) Tempo do ciclo de varredura da fila do APW em milissegundos (-pwqdelay): 100. 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (17569) Comprimento mínimo da fila do APW antes da gravação (-pwqmin): 1. 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (17570) Tempo do ciclo de varredura do buffer do APW em milissegundos (-pwqdelay): 1. 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (4247)   I/O no arquivo Before-Image (-r -R): Reliable. 
+[2026/06/08@08:20:30.374-0300] P-628        T-14528 I BROKER  0: (17563) Fator de profundidade de pesquisa de cadeia livre de registro (-recspacesearchdepth): 5 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (19133) Fila do esquema Lock Wait (-schlockwq): Not Enabled 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (18478) Tamanho do cache de segurança (-secsize): 512 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (6526)  Número de semaphore sets (-semsets) 3. 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (12264) Timeout da sessão SSL (-sessiontimeout): 0. 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (13924) Tamanho máximo do segmento da memória compartilhada (-shmsegsize) 1024 MB. 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (4243)  Spin lock (-spin): 1. 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (17803) Criptografia SSL para conexões TCP/IP (-ssl): Not Enabled 
+[2026/06/08@08:20:30.375-0300] P-628        T-14528 I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (-----) STS Socket Reuse (-stsSocketReuse): Yes
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (18525) Padrão do nível de registro de depuração do STS (-stslogginglevel): 0 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (17556) Número de tabelas incluídas na coleta de estatísticas: (-tablerangesize) 50. 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (19151) Servidor do banco de dados em thread (-threadedServer): Not Enabled 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (19159) Tamanho da pilha de thread de servidores de banco de dados em thread (-threadedServerStack): 512Kb 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (18407) Número de índices por usuário incluído na coleção estatística (-userindexrangesize): 50 
+[2026/06/08@08:20:30.478-0300] P-628        T-14528 I BROKER  0: (19089) Número de lobs por usuário incluído na coleção estatística (-userlobrangesize): 50 
+[2026/06/08@08:20:30.479-0300] P-628        T-14528 I BROKER  0: (18118) Tempo de notificação do usuário (-userNotifyTime): 600 segundos 
+[2026/06/08@08:20:30.479-0300] P-628        T-14528 I BROKER  0: (18405) Número de tabelas por usuário incluído na coleção estatística (-usertablerangesize): 50 
+[2026/06/08@08:20:30.479-0300] P-628        T-14528 I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/06/08@08:20:30.479-0300] P-628        T-14528 I BROKER  0: (4239)  Número de buffers de base de dados (-B): 3000. 
+[2026/06/08@08:20:30.479-0300] P-628        T-14528 I BROKER  0: (17562) Número de Buffers de banco de dados alternativos (-B2): 0. 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (9422)  Número máximo de private buffers por usuário (-Bpmax): 64. 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (13869) Database Service Manager - Serviços a serem iniciados (-DBService): Not Enabled. 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (10535) Modo Enhanced Read-Only (-ERO): Not Enabled 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (4237)  Acesso Forçado (-F): Not Enabled. 
+[2026/06/08@08:20:30.480-0300] P-628        T-14528 I BROKER  0: (4249)  Intervalo para truncar Before-Image (-G): 0. 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (4261)  Nome do Host (-H): MIC02519. 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (4241)  Tamanho da tabela de lock (-L): 8192. 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (16688) Regulador de Bloqueio (-LGovernor): 0%. 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (4257)  Número máximo de clientes por servidor (-Ma): 5. 
+[2026/06/08@08:20:30.481-0300] P-628        T-14528 I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4245)  Retardo na descarga do Before-Image (-Mf): 3. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4259)  Número mínimo de clientes por servidor (-Mi): 1. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (12818) Tamanho do Message Buffer (-Mm): 0 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4258)  Número máximo de servidores (-Mn): 5. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (5647)  Maximo de Servers por Broker (-Mpb): 0. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4240)  Excesso no Tamanho da Memória Compartilhada (-Mxs): 39. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4263)  Tipo de protocolo (-N): . 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (16954) Tempo de espera da mensagem de rede do servidor (-Nmsgwait): 2 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (10357) Tempo limite da conexão de cliente pendente (-PendConnTimeout): 0 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (4262)  Nome do serviço (-S): 0. 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (17804) Suporte para o grupo de servidores de agente (-ServerType): BOTH 
+[2026/06/08@08:20:30.482-0300] P-628        T-14528 I BROKER  0: (19342) Estatística de atualização autônoma do SQL (-SQLAutoStats): OFF 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (10028) Número máximo de cursores abertos para o SQL Server (-SQLCursors): 0. 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (17567) Número de segundos que um cliente SQL deve esperar por um bloqueio de registro (-SQLLockWaitTimeout): 0. 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (19134) Identificador de rowid do SQL (-SQLQuotedRowid): Non-standard 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (10026) Tamanho da estrutura de Stack para o SQL Server (-SQLStack): 0. 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (10027) Tamanho do SQL Server Statement Cache (-SQLStmtCache): 0. 
+[2026/06/08@08:20:30.483-0300] P-628        T-14528 I BROKER  0: (10029) Tamanho [em unidades de 1Kbyte] do buffer de tabela temporária do processo SQL Server (-SQLTempStoreBuff): 0. 
+[2026/06/08@08:20:30.484-0300] P-628        T-14528 I BROKER  0: (10030) Tamanho [unidades em 1Kbyte] da área de armazenamento da tabela temporária em disco do processo SQL Server (-SQLTempStoreDisk): 0. 
+[2026/06/08@08:20:30.484-0300] P-628        T-14528 I BROKER  0: (10031) Tamanho [unidades em 1Kbyte] da página de dados da tabela temporária do processo SQL Server (-SQLTempStorePageSize): 0. 
+[2026/06/08@08:20:30.484-0300] P-628        T-14528 I BROKER  0: (17955) Truncamento de dados autorizado (-SQLTruncateTooLarge): OFF 
+[2026/06/08@08:20:30.485-0300] P-628        T-14528 I BROKER  0: (18156) Atualização de esquema autônomo SQL (-SQLWidthUpdate): OFF 
+[2026/06/08@08:20:30.485-0300] P-628        T-14528 I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/06/08@08:20:30.486-0300] P-628        T-14528 I BROKER  0: (17717) Limite de tentativas de bloqueio de TXE (-TXERetryLimit): 0. 
+[2026/06/08@08:20:30.486-0300] P-628        T-14528 I BROKER  0: (13896) Limite para ignorar o bloqueio TXE Commit (-TXESkipLimit): 10000. 
+[2026/06/08@08:20:31.631-0300] P-628        T-14528 I BROKER  0: (10836) Conexões ao Banco de Dados não são permitidas neste momento. 
+[2026/06/08@08:20:31.632-0300] P-628        T-14528 I BROKER  0: (10471) Conexões de Banco de Dados foram habilitadas. 
+[2026/06/08@08:20:34.325-0300] P-17340      T-12356 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:20:35.156-0300] P-17340      T-12356 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/08@08:27:43.373-0300] P-17952      T-12236 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:27:44.198-0300] P-17952      T-12236 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:28:30.810-0300] P-17952      T-12236 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:29:21.577-0300] P-18164      T-10636 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:29:22.317-0300] P-18164      T-10636 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:29:37.531-0300] P-18164      T-10636 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:29:52.249-0300] P-19436      T-17220 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:29:52.867-0300] P-19436      T-17220 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:29:57.052-0300] P-19436      T-17220 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:30:16.123-0300] P-1232       T-14668 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:30:16.774-0300] P-1232       T-14668 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:30:20.940-0300] P-1232       T-14668 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:30:35.008-0300] P-11336      T-5876  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:30:35.692-0300] P-11336      T-5876  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:30:39.845-0300] P-11336      T-5876  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:30:59.198-0300] P-8568       T-14760 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:30:59.816-0300] P-8568       T-14760 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:31:03.000-0300] P-8568       T-14760 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:31:13.405-0300] P-12060      T-10664 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:31:14.043-0300] P-12060      T-10664 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:31:24.297-0300] P-12060      T-10664 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:32:40.607-0300] P-12760      T-324   I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:32:41.251-0300] P-12760      T-324   I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:32:44.414-0300] P-12760      T-324   I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:33:02.654-0300] P-3216       T-9740  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:33:03.288-0300] P-3216       T-9740  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:33:08.506-0300] P-3216       T-9740  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:33:30.346-0300] P-17184      T-11132 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:33:30.973-0300] P-17184      T-11132 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:33:34.130-0300] P-17184      T-11132 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:33:57.051-0300] P-16628      T-16836 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:33:57.691-0300] P-16628      T-16836 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:34:01.845-0300] P-16628      T-16836 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:34:52.332-0300] P-18032      T-7880  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:34:53.063-0300] P-18032      T-7880  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:35:08.314-0300] P-18032      T-7880  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:35:17.960-0300] P-1996       T-10936 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:35:18.610-0300] P-1996       T-10936 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:35:20.790-0300] P-1996       T-10936 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:35:26.379-0300] P-3560       T-18372 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:35:27.036-0300] P-3560       T-18372 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:35:29.116-0300] P-3560       T-18372 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:35:35.758-0300] P-16772      T-17056 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:35:36.401-0300] P-16772      T-17056 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:36:55.304-0300] P-16772      T-17056 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@08:55:37.506-0300] P-68         T-16052 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@08:55:38.269-0300] P-68         T-16052 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@08:55:53.600-0300] P-68         T-16052 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:37:10.481-0300] P-6060       T-4044  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:37:11.247-0300] P-6060       T-4044  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:37:47.691-0300] P-6060       T-4044  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:39:13.187-0300] P-2520       T-3160  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:39:13.919-0300] P-2520       T-3160  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:40:03.509-0300] P-2520       T-3160  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:42:21.027-0300] P-16896      T-9564  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:42:21.763-0300] P-16896      T-9564  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:42:23.933-0300] P-16896      T-9564  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:42:31.276-0300] P-18848      T-16112 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:42:32.012-0300] P-18848      T-16112 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:42:59.380-0300] P-18848      T-16112 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:45:29.181-0300] P-2524       T-16832 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:45:29.908-0300] P-2524       T-16832 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:45:54.217-0300] P-2524       T-16832 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:46:01.180-0300] P-12052      T-14712 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:46:01.984-0300] P-12052      T-14712 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:46:20.300-0300] P-12052      T-14712 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:48:55.451-0300] P-18912      T-6508  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:48:56.384-0300] P-18912      T-6508  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:48:58.543-0300] P-18912      T-6508  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:49:04.440-0300] P-12260      T-4556  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:49:05.189-0300] P-12260      T-4556  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:49:39.666-0300] P-12260      T-4556  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:51:13.213-0300] P-19416      T-12080 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:51:13.986-0300] P-19416      T-12080 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:51:16.152-0300] P-19416      T-12080 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:51:22.203-0300] P-9044       T-11732 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:51:22.932-0300] P-9044       T-11732 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:51:41.275-0300] P-9044       T-11732 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:57:00.805-0300] P-18984      T-18440 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:57:01.575-0300] P-18984      T-18440 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:57:25.930-0300] P-18984      T-18440 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:57:58.213-0300] P-16216      T-11252 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:57:58.999-0300] P-16216      T-11252 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@09:58:15.352-0300] P-16216      T-11252 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@09:59:56.292-0300] P-11968      T-6868  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@09:59:56.995-0300] P-11968      T-6868  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@10:00:25.408-0300] P-11968      T-6868  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@10:00:31.392-0300] P-19296      T-16964 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@10:00:32.168-0300] P-19296      T-16964 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@10:01:00.564-0300] P-19296      T-16964 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@10:01:23.483-0300] P-10020      T-18288 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@10:01:24.228-0300] P-10020      T-18288 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@10:01:51.634-0300] P-10020      T-18288 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@10:02:06.247-0300] P-17340      T-12356 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@10:02:09.216-0300] P-17464      T-2592  I SHUT    1: (452)   Login por guilhermedd no batch. 
+[2026/06/08@10:02:10.377-0300] P-17464      T-2592  I SHUT    1: (542)   Shutdown do servidor iniciado pelo guilhermedd no batch. 
+[2026/06/08@10:02:12.268-0300] P-628        T-14528 I BROKER  0: (15193) O encerramento normal do banco de dados continuará por 10 Min 0 Sec se necessário. 
+[2026/06/08@10:02:12.305-0300] P-628        T-14528 I BROKER  0: (2248)  Inicio do shutdown normal 
+[2026/06/08@10:02:13.358-0300] P-628        T-14528 I BROKER  0: (2263)  reenviando solicitacao de shutdown para 0 usuario(s). 
+[2026/06/08@10:02:17.533-0300] P-628        T-14528 I BROKER  0: (15109) No fechamento do banco de dados o número de transações ao vivo é 0. 
+[2026/06/08@10:02:17.563-0300] P-628        T-14528 I BROKER  0: (15743) Conclusão do log Before Image no bloco 166 Offset 7050. 
+[2026/06/08@10:02:17.612-0300] P-628        T-14528 I BROKER  0: (453)   Logout por guilhermedd no batch. 
+[2026/06/08@10:02:17.646-0300] P-628        T-14528 I BROKER   : (16869) Memória compartilhada removida com segment_id: 2733409239040 
+[2026/06/08@10:02:17.676-0300] P-628        T-14528 I BROKER   : (334)   Fim de sessão Multi-user. 
+[2026/06/08@10:02:18.496-0300] P-17464      T-2592  I SHUT    1: (453)   Logout por guilhermedd no batch. 
+
+                Mon Jun  8 10:03:18 2026
+[2026/06/08@10:03:18.292-0300] P-2612       T-9488  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.db encontra-se em um disco de rede. 
+[2026/06/08@10:03:18.370-0300] P-2612       T-9488  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.d1 encontra-se em um disco de rede. 
+[2026/06/08@10:03:18.635-0300] P-2612       T-9488  I BROKER  0: (9466)  Arquivo O:\Complexo Maringa\Terceiro\Station\Geral\guilhermedd\database\construtora\construtora.b1 encontra-se em um disco de rede. 
+[2026/06/08@10:03:18.934-0300] P-2612       T-9488  I BROKER  0: (333)   Inicio de sessão multi-usuário. 
+[2026/06/08@10:03:18.936-0300] P-2612       T-9488  I BROKER  0: (15321) Inicialização do log Before Image no bloco 166  offset 7050. 
+[2026/06/08@10:03:19.437-0300] P-2612       T-9488  I BROKER  0: (452)   Login por guilhermedd no batch. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (19117) Esta instalação está licenciada para: Cocamar Cooperativa Agroindustr por C:\programas\Progress\OpenEdge\progress.cfg 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (19116) Produto: Progress Dev Studio OE instalado com o número de série: 6138374 expiração: None. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (4234)  PROGRESS OpenEdge versão 12.2 build 1512 SP16 em WINNT . 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (4281)  Servidor iniciado por guilhermedd em batch. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (6574)  Iniciado usando PID: 2612. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (15219) Criptografia habilitada: 0 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (15824) Multi-tenancy ativado:0 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (15824) Table Partitioning ativado:0 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (15824) Authentication Gateway ativado:0 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (19388) LRU mechanism enabled. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (4282)  Arquivo de parâmetros: Not Enabled. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (9336)  Criado área de memória compartilhada com segment_id: 1 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (4250)  Tamanho do Cluster de Before-Image: 524288. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (4251)  Tamanho do Bloco de Before-Image: 8192. 
+[2026/06/08@10:03:19.438-0300] P-2612       T-9488  I BROKER  0: (13873) Lista de diretórios de arquivamento de gerenciamento After-image (-aiarcdir): Not Enabled. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (13874) Criar diretório(s) de arquivamento de gerenciamento After-image (-aiarcdircreate): Not Enabled. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (13872) Intervalo de arquivamento de gerenciamento After-image (-aiarcinterval): -1. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (4256)  Número de buffers After-Image (-aibufs): 64 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (4254)  Atraso no After-Image (-aistall): Not Enabled. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (17555) Número inicial do índice para a faixa de estatísticas (-baseindex): 1. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (19091) Número de LOB inicial para o intervalo estatístico (-baselob): 1 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (17554) Número inicial da tabela para a faixa de estatísticas (-basetable): 1. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18406) Número do índice inicial por usuário para o intervalo estatístico (-baseuserindex): 1 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (19092) Número de LOB inicial por usuário para o intervalo estatístico (-baseuserlob): 1 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18404) Número inicial de tabela por usuário para o intervalo estatístico (-baseusertable): 1 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (4252)  Numero de Buffers de Before-Image (-bibufs): 64. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (6552)  Atraso no Before-Image (-bistall): Desabilitado. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (9238)  Tamanho de Threshold do arquivo de BI (-bithold): 0.0   Bytes. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (12812) BIW writer delay (-bwdelay): 0 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (12813) Cursores de índice permitidos (-c): 84. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18495) Tamanho do cache do CDC (-cdcsize): 200k bytes 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (12265) Caminho de armazenamento do certificado SSL (-certstorepath): Not Enabled 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (4264)  Conjunto de caracteres (-cpinternal): UTF-8. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (4235)  Nome físico da base de dados (-db): O:/Complexo Maringa/Terceiro/Station/Geral/guilhermedd/database/construtora/construtora. 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18558) Diretório de diagnóstico (-diagDir): Not Enabled 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18576) Valor dos eventos do diagnóstico (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2026/06/08@10:03:19.439-0300] P-2612       T-9488  I BROKER  0: (18560) Nível do evento de diagnóstico (-diagEvtLevel): 0 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (18561) Separador de campos de diagnóstico (-diagFS): ' ' 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (18579) Formato dos dados do diagnóstico (-diagFormat): csv 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (18562) Tamanho da pausa do diagnóstico (-diagPause): 0 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (18563) Valor do prefixo do diagnóstico (-diagPrefix): diagEvent_ 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (18580) Procedimento do diagnóstico (-diagProc): Not Enabled 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled. 
+[2026/06/08@10:03:19.440-0300] P-2612       T-9488  I BROKER  0: (4236)  Tipo de Base de Dados (-dt): PROGRESS. 
+[2026/06/08@10:03:19.514-0300] P-2612       T-9488  I BROKER  0: (15218) Tamanho do cache de criptografia (-ecsize): 1000 
+[2026/06/08@10:03:19.514-0300] P-2612       T-9488  I BROKER  0: (12814) Atraso do grupo (-groupdelay): 10 
+[2026/06/08@10:03:19.514-0300] P-2612       T-9488  I BROKER  0: (4242)  Número de entradas na tabela de hash (-hash): 887. 
+[2026/06/08@10:03:19.514-0300] P-2612       T-9488  I BROKER  0: (19195) Porcentagem de latch da tabela codificada do pool de buffer (-hashLatchFactor): 10 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (4244)  Crash Recovery (-i): Enabled. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (17557) Número de índices incluídos na coleta de estatísticas: (-indexrangesize) 50. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (14268) Versão TCP/IP (-ipver) : IPV4 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (12263) Nome do SSL Key Alias (-keyalias): Not Enabled. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19216) Diretório do arquivo de histórico do banco de dados (-lgArchiveDir): Not Enabled 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19215) Arquivar arquivo de histórico do banco de dados antes do truncamento (-lgArchiveEnable): Not Enabled 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19213) Frequência do truncamento do arquivo de histórico do banco de dados (-lgTruncateFrequency): -1 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19214) Tamanho máximo que o arquivo de histórico do banco de dados pode atingir antes do truncamento (-lgTruncateSize): 0MB 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19212) Horário do dia para truncamento do arquivo de histórico do banco de dados (-lgTruncateTime): 00:00 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19137) Limitar a carga do arquivo .lg (-limitLgPayload): Not Enabled 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (12815) Bloquear tamanho da tabela no hash de tabela (-lkhash): 1237 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (17805) Algoritmo de liberação de bloqueio original (-lkrela): Not Enabled 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (19090) Número de LOBs incluídos na coleção estatística (-lobrangesize): 50 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (17560) Número de LRU force skips (-lruskips): 100 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (17561) Número de LRU2 force skips (-lru2skips): 0 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (13953) Número máximo da área (-maxArea): 32000. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (5649)  Maximo de Portas para Auto Servers (-maxport): 0. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (12540) Tamanho da tabela de transações JTA (-maxxids):  100 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (5648)  Minimo de Portas para os Auto Servers (-minport): 0. 
+[2026/06/08@10:03:19.515-0300] P-2612       T-9488  I BROKER  0: (17564) Tamanho do cache da partição de multi-tenancy (-mtpmsize): 1024 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (4260)  Número máximo de usuários (-n): 21. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (17566) Tempo mínimo para desligamento após a primeira exaustão do -spin (-nap): 10. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (17565) Tempo máximo para desligamento após exaustão do -spin (-napmax): 250. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (18522) SSL Sem verificação de Host (-nohostverify): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (17807) Desabilitar mecanismo de LRU (-nolru): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (12273) SSL Sem cache de sessão (-nosessioncache): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (18521) SSL Sem reutilização de sessão (-nosessionreuse): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (16689) Regulador de Login (-nGovernor): 0 de 32000. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (18398) Número de estatísticas de ponto de verificação do registro (-numCheckpointStats): 32 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (19122) Omitir mensagens do arquivo .lg (-omitLgMsgs):  
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (8527)  Tamanho do cache de armazenamento de objeto (-omsize): 1024 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (13870) Database Service Manager - Tamanho da fila IPC (-pica): 128.0 KBytes. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (19347) Tempo máximo de inatividade se bloqueado para acessar fila PICA (-picanap): 1 ms. 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (17802) Segmentos de memória compartilhada bloqueados (-pinshm): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (16953) Usar mecanismo de pollset para o cliente/servidor (-pollset): Not Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (16955) Atrasar primeira mensagem de pré-busca (-prefetchDelay): Enabled 
+[2026/06/08@10:03:19.516-0300] P-2612       T-9488  I BROKER  0: (16956) Porcentagem de preenchimento da mensagem de pré-busca (-prefetchFactor): 100 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (16957) Mínimo de registros na mensagem de pré-busca (-prefetchNumRecs): 64 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (16958) Prioridade de sondagem da fila de suspensão (-prefetchPriority): 1 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17568) Tempo do ciclo de varredura da fila do APW em milissegundos (-pwqdelay): 100. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17569) Comprimento mínimo da fila do APW antes da gravação (-pwqmin): 1. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17570) Tempo do ciclo de varredura do buffer do APW em milissegundos (-pwqdelay): 1. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (4247)   I/O no arquivo Before-Image (-r -R): Reliable. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17563) Fator de profundidade de pesquisa de cadeia livre de registro (-recspacesearchdepth): 5 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (19133) Fila do esquema Lock Wait (-schlockwq): Not Enabled 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (18478) Tamanho do cache de segurança (-secsize): 512 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (6526)  Número de semaphore sets (-semsets) 3. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (12264) Timeout da sessão SSL (-sessiontimeout): 0. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (13924) Tamanho máximo do segmento da memória compartilhada (-shmsegsize) 1024 MB. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (4243)  Spin lock (-spin): 1. 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17803) Criptografia SSL para conexões TCP/IP (-ssl): Not Enabled 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (-----) STS Socket Reuse (-stsSocketReuse): Yes
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (18525) Padrão do nível de registro de depuração do STS (-stslogginglevel): 0 
+[2026/06/08@10:03:19.517-0300] P-2612       T-9488  I BROKER  0: (17556) Número de tabelas incluídas na coleta de estatísticas: (-tablerangesize) 50. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (19151) Servidor do banco de dados em thread (-threadedServer): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (19159) Tamanho da pilha de thread de servidores de banco de dados em thread (-threadedServerStack): 512Kb 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (18407) Número de índices por usuário incluído na coleção estatística (-userindexrangesize): 50 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (19089) Número de lobs por usuário incluído na coleção estatística (-userlobrangesize): 50 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (18118) Tempo de notificação do usuário (-userNotifyTime): 600 segundos 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (18405) Número de tabelas por usuário incluído na coleção estatística (-usertablerangesize): 50 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4239)  Número de buffers de base de dados (-B): 3000. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (17562) Número de Buffers de banco de dados alternativos (-B2): 0. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (9422)  Número máximo de private buffers por usuário (-Bpmax): 64. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (13869) Database Service Manager - Serviços a serem iniciados (-DBService): Not Enabled. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (10535) Modo Enhanced Read-Only (-ERO): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4237)  Acesso Forçado (-F): Not Enabled. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4249)  Intervalo para truncar Before-Image (-G): 0. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4261)  Nome do Host (-H): MIC02519. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4241)  Tamanho da tabela de lock (-L): 8192. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (16688) Regulador de Bloqueio (-LGovernor): 0%. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4257)  Número máximo de clientes por servidor (-Ma): 5. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4245)  Retardo na descarga do Before-Image (-Mf): 3. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (4259)  Número mínimo de clientes por servidor (-Mi): 1. 
+[2026/06/08@10:03:19.518-0300] P-2612       T-9488  I BROKER  0: (12818) Tamanho do Message Buffer (-Mm): 0 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (4258)  Número máximo de servidores (-Mn): 5. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (5647)  Maximo de Servers por Broker (-Mpb): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (4240)  Excesso no Tamanho da Memória Compartilhada (-Mxs): 39. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (4263)  Tipo de protocolo (-N): . 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (16954) Tempo de espera da mensagem de rede do servidor (-Nmsgwait): 2 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10357) Tempo limite da conexão de cliente pendente (-PendConnTimeout): 0 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (4262)  Nome do serviço (-S): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (17804) Suporte para o grupo de servidores de agente (-ServerType): BOTH 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (19342) Estatística de atualização autônoma do SQL (-SQLAutoStats): OFF 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10028) Número máximo de cursores abertos para o SQL Server (-SQLCursors): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (17567) Número de segundos que um cliente SQL deve esperar por um bloqueio de registro (-SQLLockWaitTimeout): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (19134) Identificador de rowid do SQL (-SQLQuotedRowid): Non-standard 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10026) Tamanho da estrutura de Stack para o SQL Server (-SQLStack): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10027) Tamanho do SQL Server Statement Cache (-SQLStmtCache): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10029) Tamanho [em unidades de 1Kbyte] do buffer de tabela temporária do processo SQL Server (-SQLTempStoreBuff): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10030) Tamanho [unidades em 1Kbyte] da área de armazenamento da tabela temporária em disco do processo SQL Server (-SQLTempStoreDisk): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (10031) Tamanho [unidades em 1Kbyte] da página de dados da tabela temporária do processo SQL Server (-SQLTempStorePageSize): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (17955) Truncamento de dados autorizado (-SQLTruncateTooLarge): OFF 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (18156) Atualização de esquema autônomo SQL (-SQLWidthUpdate): OFF 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (17717) Limite de tentativas de bloqueio de TXE (-TXERetryLimit): 0. 
+[2026/06/08@10:03:19.519-0300] P-2612       T-9488  I BROKER  0: (13896) Limite para ignorar o bloqueio TXE Commit (-TXESkipLimit): 10000. 
+[2026/06/08@10:03:19.747-0300] P-2612       T-9488  I BROKER  0: (10836) Conexões ao Banco de Dados não são permitidas neste momento. 
+[2026/06/08@10:03:19.747-0300] P-2612       T-9488  I BROKER  0: (10471) Conexões de Banco de Dados foram habilitadas. 
+[2026/06/08@10:03:21.369-0300] P-13412      T-4320  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@10:03:22.181-0300] P-13412      T-4320  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/08@10:03:41.068-0300] P-9316       T-9920  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@10:03:41.629-0300] P-9316       T-9920  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@10:03:56.900-0300] P-9316       T-9920  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:09:06.221-0300] P-9936       T-4992  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:09:06.784-0300] P-9936       T-4992  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:09:07.864-0300] P-9936       T-4992  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:36:51.272-0300] P-18908      T-3644  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:36:51.863-0300] P-18908      T-3644  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:37:04.060-0300] P-18908      T-3644  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:37:11.532-0300] P-3832       T-14572 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:37:11.988-0300] P-3832       T-14572 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:37:14.050-0300] P-3832       T-14572 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:37:18.186-0300] P-7664       T-19116 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:37:18.658-0300] P-7664       T-19116 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:37:19.571-0300] P-1044       T-14156 I ABL     3: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:37:19.740-0300] P-7664       T-19116 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:37:20.061-0300] P-1044       T-14156 I ABL     3: (7129)  Usr 3 define nome para guilhermedd. 
+[2026/06/08@11:37:20.769-0300] P-17008      T-16208 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:37:21.135-0300] P-1044       T-14156 I ABL     3: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:37:21.216-0300] P-17008      T-16208 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:37:22.318-0300] P-17008      T-16208 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:37:30.157-0300] P-12916      T-14848 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:37:30.690-0300] P-12916      T-14848 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:38:02.077-0300] P-12916      T-14848 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:38:06.059-0300] P-17952      T-1868  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:38:06.570-0300] P-17952      T-1868  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:38:25.852-0300] P-17952      T-1868  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:47:23.486-0300] P-5444       T-9012  I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:47:24.101-0300] P-5444       T-9012  I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:47:32.211-0300] P-5444       T-9012  I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:49:10.592-0300] P-596        T-16988 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:49:11.116-0300] P-596        T-16988 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:49:33.458-0300] P-596        T-16988 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:50:32.886-0300] P-1716       T-440   I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:50:33.423-0300] P-1716       T-440   I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:50:49.680-0300] P-1716       T-440   I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:50:54.522-0300] P-2636       T-16412 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:50:55.050-0300] P-2636       T-16412 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:50:57.133-0300] P-2636       T-16412 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:53:41.870-0300] P-2312       T-18500 I ABL     2: (452)   Login por guilhermedd no CON:. 
+[2026/06/08@11:53:42.407-0300] P-2312       T-18500 I ABL     2: (7129)  Usr 2 define nome para guilhermedd. 
+[2026/06/08@11:54:10.819-0300] P-2312       T-18500 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:56:32.135-0300] P-13412      T-4320  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/08@11:56:33.852-0300] P-6200       T-12304 I SHUT    1: (452)   Login por guilhermedd no batch. 
+[2026/06/08@11:56:34.596-0300] P-6200       T-12304 I SHUT    1: (542)   Shutdown do servidor iniciado pelo guilhermedd no batch. 
+[2026/06/08@11:56:35.751-0300] P-2612       T-9488  I BROKER  0: (15193) O encerramento normal do banco de dados continuará por 10 Min 0 Sec se necessário. 
+[2026/06/08@11:56:35.752-0300] P-2612       T-9488  I BROKER  0: (2248)  Inicio do shutdown normal 
+[2026/06/08@11:56:36.757-0300] P-2612       T-9488  I BROKER  0: (2263)  reenviando solicitacao de shutdown para 0 usuario(s). 
+[2026/06/08@11:56:40.984-0300] P-2612       T-9488  I BROKER  0: (15109) No fechamento do banco de dados o número de transações ao vivo é 0. 
+[2026/06/08@11:56:40.985-0300] P-2612       T-9488  I BROKER  0: (15743) Conclusão do log Before Image no bloco 168 Offset 4254. 
+[2026/06/08@11:56:41.000-0300] P-2612       T-9488  I BROKER  0: (453)   Logout por guilhermedd no batch. 
+[2026/06/08@11:56:41.005-0300] P-2612       T-9488  I BROKER   : (16869) Memória compartilhada removida com segment_id: 1581547061248 
+[2026/06/08@11:56:41.005-0300] P-2612       T-9488  I BROKER   : (334)   Fim de sessão Multi-user. 
+[2026/06/08@11:56:41.653-0300] P-6200       T-12304 I SHUT    1: (453)   Logout por guilhermedd no batch. 

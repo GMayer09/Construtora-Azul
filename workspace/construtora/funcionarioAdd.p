@@ -1,20 +1,26 @@
 FUNCTION getLastIdFunc RETURN INT ():
     DEF BUFFER funcionario FOR funcionario.
+    
     FIND LAST funcionario NO-LOCK NO-ERROR.
+    
     RETURN IF AVAIL funcionario THEN funcionario.idFunc ELSE 0.
 END FUNCTION.
 
 FUNCTION validIdCargo RETURN LOGICAL (INPUT v-idCargo AS INT):
     DEF BUFFER b-idCargo FOR cargo.
+    
     FIND FIRST b-idCargo NO-LOCK
         WHERE b-idCargo.idCargo = v-idCargo NO-ERROR.
+        
     RETURN IF AVAIL b-idCargo THEN TRUE ELSE FALSE.
 END FUNCTION.
 
 FUNCTION validIdCidade RETURN LOGICAL (INPUT v-idCidade AS INT):
     DEF BUFFER b-idCidade FOR cidade.
+    
     FIND FIRST b-idCidade NO-LOCK
         WHERE b-idCidade.idCidade = v-idCidade NO-ERROR.
+        
     RETURN IF AVAIL b-idCidade THEN TRUE ELSE FALSE.
 END FUNCTION.
 

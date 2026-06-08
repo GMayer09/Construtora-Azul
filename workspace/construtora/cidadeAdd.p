@@ -1,6 +1,8 @@
 FUNCTION getLastIdCidade RETURN INT ():
     DEF BUFFER cidade FOR cidade.
+    
     FIND LAST cidade NO-LOCK NO-ERROR.
+    
     RETURN IF AVAIL cidade THEN cidade.idCidade ELSE 0.
 END FUNCTION.
 

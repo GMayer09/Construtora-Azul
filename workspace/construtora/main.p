@@ -5,15 +5,12 @@ DEF VAR menu AS CHAR EXTENT 5 FORM "x(29)"
 DEF VAR submenu1 AS CHAR EXTENT 4 FORM "x(23)"
     INITIAL ["1.Cadastrar Funcionario", "2.Consultar Funcionario",
     "3.Alterar Funcionario", "4.Deletar Funcionario"].
-
 DEF VAR submenu2 AS CHAR EXTENT 4 FORM "x(23)"
     INITIAL ["1.Cadastrar Dependente", "2.Consultar Dependente",
     "3.Alterar Dependente", "4.Deletar Dependente"].
-    
 DEF VAR submenu3 AS CHAR EXTENT 4 FORM "x(17)"
     INITIAL ["1.Cadastrar Cargo", "2.Consultar Cargo",
     "3.Alterar Cargo", "4.Deletar Cargo"].
-
 DEF VAR submenu4 AS CHAR EXTENT 4 FORM "x(18)"
     INITIAL ["1.Cadastrar Cidade", "2.Consultar Cidade",
     "3.Alterar Cidade", "4.Deletar Cidade"].
@@ -42,10 +39,14 @@ DO TRANSACTION:
         
         IF LASTKEY = KEYCODE("ESC") THEN LEAVE main-block.
         
-        IF v-choose > 0 AND v-choose <= 5 THEN DO:
+        IF v-choose > 0 AND
+           v-choose <= 5
+        THEN DO:
             
-            IF v-choose = 1 THEN DISPLAY submenu1 WITH FRAME f-submenu1.
-            IF v-choose = 2 THEN DISPLAY submenu2 WITH FRAME f-submenu2.
+            IF v-choose = 1
+            THEN DISPLAY submenu1 WITH FRAME f-submenu1.
+            IF v-choose = 2
+            THEN DISPLAY submenu2 WITH FRAME f-submenu2.
             IF v-choose = 3 THEN DISPLAY submenu3 WITH FRAME f-submenu3.
             IF v-choose = 4 THEN DISPLAY submenu4 WITH FRAME f-submenu4.
             IF v-choose = 5 THEN RUN historico.p.

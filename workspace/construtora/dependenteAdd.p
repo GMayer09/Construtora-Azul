@@ -1,13 +1,17 @@
 FUNCTION getLastIdDepe RETURN INT ():
     DEF BUFFER dependente FOR dependente.
+    
     FIND LAST dependente NO-LOCK NO-ERROR.
+    
     RETURN IF AVAIL dependente THEN dependente.idDepe ELSE 0.
 END FUNCTION.
 
 FUNCTION validIdFunc RETURN LOGICAL (INPUT v-idFunc AS INT):
     DEF BUFFER b-idFunc FOR funcionario.
-    FIND FIRST b-idFunc NO-LOCK
-        WHERE b-idFunc.idFunc = v-idFunc NO-ERROR.
+    
+    FIND FIRST b-idFunc 
+        WHERE b-idFunc.idFunc = v-idFunc NO-LOCK NO-ERROR.
+        
     RETURN IF AVAIL b-idFunc THEN TRUE ELSE FALSE.
 END FUNCTION.
 
