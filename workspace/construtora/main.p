@@ -2,9 +2,9 @@ DEF VAR menu AS CHAR EXTENT 5 FORM "x(29)"
     INITIAL ["1.Gerenciamento Funcionario", "2.Gerenciamento Dependente",
     "3.Gerencimento Cargo", "4.Gerencimento Cidade", "5.Historico"].
 
-DEF VAR submenu1 AS CHAR EXTENT 4 FORM "x(23)"
-    INITIAL ["1.Cadastrar Funcionario", "2.Consultar Funcionario",
-    "3.Alterar Funcionario", "4.Deletar Funcionario"].
+DEF VAR submenu1 AS CHAR EXTENT 3 FORM "x(23)"
+    INITIAL ["1.Cadastrar/Alterar Funcionario", "2.Consultar Funcionario",
+    "3.Deletar Funcionario"].
 DEF VAR submenu2 AS CHAR EXTENT 4 FORM "x(23)"
     INITIAL ["1.Cadastrar Dependente", "2.Consultar Dependente",
     "3.Alterar Dependente", "4.Deletar Dependente"].
