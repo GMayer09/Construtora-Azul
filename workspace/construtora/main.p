@@ -1,8 +1,8 @@
-DEF VAR menu AS CHAR EXTENT 5 FORM "x(29)"
+DEF VAR menu AS CHAR EXTENT 6 FORM "x(29)"
     INITIAL ["1.Gerenciamento Funcionario", "2.Gerenciamento Dependente",
-    "3.Gerencimento Cargo", "4.Gerencimento Cidade", "5.Historico"].
+    "3.Gerencimento Cargo", "4.Gerencimento Cidade", "5.Historico", "6.Relatorio"].
 
-DEF VAR submenu1 AS CHAR EXTENT 3 FORM "x(23)"
+DEF VAR submenu1 AS CHAR EXTENT 3 FORM "x(31)"
     INITIAL ["1.Cadastrar/Alterar Funcionario", "2.Consultar Funcionario",
     "3.Deletar Funcionario"].
 DEF VAR submenu2 AS CHAR EXTENT 4 FORM "x(23)"
@@ -39,17 +39,15 @@ DO TRANSACTION:
         
         IF LASTKEY = KEYCODE("ESC") THEN LEAVE main-block.
         
-        IF v-choose > 0 AND
-           v-choose <= 5
+        IF v-choose > 0 AND v-choose <= 6
         THEN DO:
             
-            IF v-choose = 1
-            THEN DISPLAY submenu1 WITH FRAME f-submenu1.
-            IF v-choose = 2
-            THEN DISPLAY submenu2 WITH FRAME f-submenu2.
+            IF v-choose = 1 THEN DISPLAY submenu1 WITH FRAME f-submenu1.
+            IF v-choose = 2 THEN DISPLAY submenu2 WITH FRAME f-submenu2.
             IF v-choose = 3 THEN DISPLAY submenu3 WITH FRAME f-submenu3.
             IF v-choose = 4 THEN DISPLAY submenu4 WITH FRAME f-submenu4.
             IF v-choose = 5 THEN RUN historico.p.
+            IF v-choose = 6 THEN RUN relatorio.p.
             
             IF v-choose = 1 THEN DO:
                 CHOOSE FIELD submenu1 AUTO-RETURN WITH FRAME f-submenu1.
@@ -57,10 +55,9 @@ DO TRANSACTION:
                 HIDE FRAME f-submenu1.
                 
                 IF LASTKEY <> KEYCODE("ESC") THEN DO:
-                    IF v-subchoose = 1 THEN RUN funcionarioAdd.p.
+                    IF v-subchoose = 1 THEN RUN funcionarioUpd.p.
                     ELSE IF v-subchoose = 2 THEN RUN funcionarioRead.p.
-                    ELSE IF v-subchoose = 3 THEN RUN funcionarioUpd.p.
-                    ELSE IF v-subchoose = 4 THEN RUN funcionarioDel.p.
+                    ELSE IF v-subchoose = 3 THEN RUN funcionarioDel.p.
                 END.
             END.
             

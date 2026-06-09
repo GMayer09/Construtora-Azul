@@ -24,8 +24,8 @@ REPEAT:
     CREATE dependente.
     ASSIGN dependente.idDepe = getLastIdDepe() + 1.
    
-    UPDATE dependente.nome       dependente.cpf   dependente.rg      dependente.endereco
-           dependente.nascimento dependente.sexo  
+    UPDATE dependente.nome       dependente.cpf   dependente.rg       dependente.endereco
+           dependente.nascimento dependente.sexo  dependente.grauPare
            v-idFunc LABEL "Cod. Func" WITH FRAME depe-frame.
     
     IF NOT validIdFunc(v-idFunc) THEN DO:

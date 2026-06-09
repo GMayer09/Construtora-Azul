@@ -1,11 +1,14 @@
-DEF VAR cargo-ant AS INT.
-DEF VAR salario-ant AS DEC.
-DEF VAR data-ini AS DATE.
-DEF VAR wfuncid AS INT.
+DEF VAR cargo-ant AS INT NO-UNDO.
+DEF VAR salario-ant AS DEC NO-UNDO.
+DEF VAR data-ini AS DATE NO-UNDO.
+DEF VAR wfuncid AS INT NO-UNDO.
 
 DEF VAR vRetFunc    AS INT NO-UNDO.
 DEF VAR vRetCargo   AS INT NO-UNDO.
 DEF VAR vRetCidade  AS INT NO-UNDO.
+
+DEF VAR v-idCargo AS INT NO-UNDO.
+DEF VAR v-idCidade AS INT NO-UNDO.
 
 FUNCTION getLastIdFunc RETURN INT ():
     DEF BUFFER funcionario FOR funcionario.
@@ -42,13 +45,19 @@ FUNCTION validIdCidade RETURN LOGICAL (INPUT v-idCidade AS INT):
     RETURN IF AVAIL b-idCidade THEN TRUE ELSE FALSE.
 END FUNCTION.
 
-DEF VAR v-idCargo AS INT NO-UNDO.
-DEF VAR v-idCidade AS INT NO-UNDO.
+FUNCTION ocupouCargoAnterior RETURN LOGICAL (INPUT p-idFunc AS INT, INPUT p-idCargo AS INT):
+    DEF BUFFER b-historico FOR historico.
+    
+    FIND FIRST b-historico NO-LOCK 
+         WHERE b-historico.idFunc  = p-idFunc 
+           AND b-historico.idCargo = p-idCargo NO-ERROR.
+           
+    RETURN IF AVAIL b-historico THEN TRUE ELSE FALSE.
+END FUNCTION.
 
 DEF FRAME func-frame 
     wfuncid LABEL "Funcionario" SKIP
-    WITH TITLE "FUNCIONARIO" CENTERED
-    1 COLUMN 1 DOWN ROW 3.
+    WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
 
 MAIN-LOOP:
 REPEAT:
@@ -109,7 +118,14 @@ REPEAT:
             MESSAGE "Erro: Codigo de cidade invalido!" VIEW-AS ALERT-BOX ERROR.
             UNDO MAIN-LOOP, RETRY MAIN-LOOP.
         END.
-
+        
+        IF v-idCargo <> cargo-ant THEN DO:
+            IF ocupouCargoAnterior(funcionario.idFunc, v-idCargo) THEN DO:
+                MESSAGE "Erro: O funcionario nao pode voltar a ocupar um cargo anterior!" VIEW-AS ALERT-BOX ERROR.
+                UNDO MAIN-LOOP, RETRY MAIN-LOOP.
+            END.
+        END.
+        
         ASSIGN funcionario.idCargo  = v-idCargo
                funcionario.idCidade = v-idCidade.
 
@@ -121,6 +137,7 @@ REPEAT:
                    historico.idCargo = cargo-ant
                    historico.dataIni = data-ini
                    historico.dataFim = TODAY.
+            ASSIGN funcionario.dataAdm = TODAY.
         END.
         HIDE FRAME func-frame.
         MESSAGE "Funcionario alterado com sucesso!" VIEW-AS ALERT-BOX.
