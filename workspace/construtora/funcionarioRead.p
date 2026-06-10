@@ -21,6 +21,6 @@ REPEAT:
     END.
     
     ELSE DO:
-        MESSAGE "Erro: funcionario não foi encontrado!" VIEW-AS ALERT-BOX.
+        MESSAGE "Erro: funcionario nao foi encontrado!" VIEW-AS ALERT-BOX.
     END.
 END.

@@ -8675,3 +8675,65 @@
 [2026/06/10@10:15:18.406-0300] P-12240      T-18220 I ABL     1: (452)   Login por guilhermedd no CON:. 
 [2026/06/10@10:15:18.918-0300] P-12240      T-18220 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
 [2026/06/10@10:15:27.093-0300] P-12240      T-18220 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:35:02.287-0300] P-2820       T-6356  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:35:03.043-0300] P-2820       T-6356  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:39:55.054-0300] P-2820       T-6356  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:52:33.581-0300] P-17132      T-10552 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:52:34.411-0300] P-17132      T-10552 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:52:49.756-0300] P-17132      T-10552 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:57:05.071-0300] P-18760      T-5312  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:57:05.871-0300] P-18760      T-5312  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:58:20.766-0300] P-18760      T-5312  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:08.125-0300] P-3672       T-1492  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:08.926-0300] P-3672       T-1492  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:59:19.159-0300] P-3672       T-1492  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:24.217-0300] P-8944       T-18536 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:25.022-0300] P-8944       T-18536 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:59:34.186-0300] P-8944       T-18536 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:40.442-0300] P-580        T-18824 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:41.305-0300] P-580        T-18824 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:59:41.985-0300] P-8084       T-8788  I ABL     3: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:42.389-0300] P-580        T-18824 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:42.790-0300] P-8084       T-8788  I ABL     3: (7129)  Usr 3 define nome para guilhermedd. 
+[2026/06/10@10:59:43.240-0300] P-1892       T-18420 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:44.032-0300] P-1892       T-18420 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@10:59:44.210-0300] P-7996       T-13660 I ABL     4: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:44.946-0300] P-7996       T-13660 I ABL     4: (7129)  Usr 4 define nome para guilhermedd. 
+[2026/06/10@10:59:45.220-0300] P-1892       T-18420 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:46.120-0300] P-7996       T-13660 I ABL     4: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@10:59:55.287-0300] P-10356      T-9176  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@10:59:56.100-0300] P-10356      T-9176  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:00:02.290-0300] P-10356      T-9176  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:07:28.848-0300] P-852        T-17552 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:07:29.666-0300] P-852        T-17552 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:07:31.835-0300] P-852        T-17552 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:07:37.168-0300] P-5452       T-10468 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:07:37.873-0300] P-5452       T-10468 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:09:21.180-0300] P-5452       T-10468 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:09:59.632-0300] P-14200      T-8600  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:10:00.430-0300] P-14200      T-8600  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:10:13.640-0300] P-14200      T-8600  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:10:30.996-0300] P-15352      T-15316 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:10:31.964-0300] P-15352      T-15316 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:10:38.170-0300] P-15352      T-15316 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:11:55.688-0300] P-7084       T-18976 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:11:56.474-0300] P-7084       T-18976 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:12:30.909-0300] P-7084       T-18976 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:20:34.245-0300] P-16824      T-17812 I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:20:35.087-0300] P-16824      T-17812 I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:21:02.417-0300] P-16824      T-17812 I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:21:49.960-0300] P-13036      T-1204  I ABL     1: (452)   Login por guilhermedd no CON:. 
+[2026/06/10@11:21:50.756-0300] P-13036      T-1204  I ABL     1: (7129)  Usr 1 define nome para guilhermedd. 
+[2026/06/10@11:22:49.466-0300] P-13036      T-1204  I ABL     1: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:23:06.509-0300] P-11260      T-14140 I ABL     2: (453)   Logout por guilhermedd no CON:. 
+[2026/06/10@11:23:08.569-0300] P-10496      T-3124  I SHUT    1: (452)   Login por guilhermedd no batch. 
+[2026/06/10@11:23:09.675-0300] P-10496      T-3124  I SHUT    1: (542)   Shutdown do servidor iniciado pelo guilhermedd no batch. 
+[2026/06/10@11:23:11.922-0300] P-2672       T-12556 I BROKER  0: (15193) O encerramento normal do banco de dados continuará por 10 Min 0 Sec se necessário. 
+[2026/06/10@11:23:11.952-0300] P-2672       T-12556 I BROKER  0: (2248)  Inicio do shutdown normal 
+[2026/06/10@11:23:12.998-0300] P-2672       T-12556 I BROKER  0: (2263)  reenviando solicitacao de shutdown para 0 usuario(s). 
+[2026/06/10@11:23:17.245-0300] P-2672       T-12556 I BROKER  0: (15109) No fechamento do banco de dados o número de transações ao vivo é 0. 
+[2026/06/10@11:23:17.276-0300] P-2672       T-12556 I BROKER  0: (15743) Conclusão do log Before Image no bloco 174 Offset 1143. 
+[2026/06/10@11:23:17.323-0300] P-2672       T-12556 I BROKER  0: (453)   Logout por guilhermedd no batch. 
+[2026/06/10@11:23:17.355-0300] P-2672       T-12556 I BROKER   : (16869) Memória compartilhada removida com segment_id: 2354820415488 
+[2026/06/10@11:23:17.386-0300] P-2672       T-12556 I BROKER   : (334)   Fim de sessão Multi-user. 
+[2026/06/10@11:23:17.792-0300] P-10496      T-3124  I SHUT    1: (453)   Logout por guilhermedd no batch. 

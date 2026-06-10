@@ -23,6 +23,7 @@ DEF FRAME depe-frame WITH TITLE "CADASTRAR DEPENDENTE" CENTERED
 REPEAT:
     CREATE dependente.
     ASSIGN dependente.idDepe = getLastIdDepe() + 1.
+    ASSIGN v-idFunc = 0.
    
     UPDATE dependente.nome       dependente.cpf   dependente.rg       dependente.endereco
            dependente.nascimento dependente.sexo  dependente.grauPare
