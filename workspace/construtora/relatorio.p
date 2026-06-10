@@ -9,7 +9,7 @@ DEF FRAME f-relatorio
     funcionario.nome      COLUMN-LABEL "NOME"       FORMAT "x(15)"
     funcionario.salario   COLUMN-LABEL "SALARIO"    FORMAT "->>,>>9.99"
     v-idDepe              COLUMN-LABEL "DEPENDENTES" FORMAT ">>>>9" 
-    WITH TITLE "RELATORIO" CENTERED STREAM-IO DOWN WIDTH 95.
+    WITH TITLE "RELATORIO" CENTERED STREAM-IO DOWN WIDTH 66.
 
 FOR EACH funcionario BREAK BY funcionario.idCargo:
     FIND FIRST b-cargo WHERE b-cargo.idCargo = funcionario.idCargo NO-LOCK NO-ERROR NO-WAIT.
@@ -25,9 +25,12 @@ FOR EACH funcionario BREAK BY funcionario.idCargo:
     ACCUMULATE funcionario.salario(TOTAL BY funcionario.idCargo).
     ACCUMULATE v-idDepe (TOTAL BY funcionario.idCargo).
     
-    IF FIRST-OF (funcionario.idCargo) THEN DO:  
-        DISPLAY ACCUM TOTAL funcionario.salario LABEL "TOTAL CARGO"
-                ACCUM TOTAL v-idDepe LABEL "TOTAL DEPENDENTE"
+    IF LAST-OF (funcionario.idCargo) THEN DO:
+        UNDERLINE funcionario.salario v-idDepe WITH FRAME f-relatorio.
+        
+        DISPLAY "TOTAL CARGO:" @ funcionario.nome
+                ACCUM TOTAL BY funcionario.idCargo funcionario.salario @ funcionario.salario
+                ACCUM TOTAL BY funcionario.idCargo v-idDepe @ v-idDepe
                 WITH FRAME f-relatorio.
     END.
 END.
