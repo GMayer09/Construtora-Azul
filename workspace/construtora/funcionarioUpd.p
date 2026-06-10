@@ -56,7 +56,7 @@ FUNCTION ocupouCargoAnterior RETURN LOGICAL (INPUT p-idFunc AS INT, INPUT p-idCa
 END FUNCTION.
 
 DEF FRAME func-frame 
-    wfuncid LABEL "Funcionario" SKIP
+    wfuncid LABEL "Cod.Func" SKIP
     WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
 
 MAIN-LOOP:
