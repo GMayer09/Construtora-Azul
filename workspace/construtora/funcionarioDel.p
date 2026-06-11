@@ -1,13 +1,31 @@
-DEF FRAME func-frame WITH TITLE "DELETAR FUNCIONARIO" CENTERED
+DEF VAR wfuncid AS INT NO-UNDO.
+
+DEF VAR vRetFunc    AS INT NO-UNDO.
+DEF VAR vRetCargo   AS INT NO-UNDO.
+DEF VAR vRetCidade  AS INT NO-UNDO.
+
+DEF FRAME func-frame 
+    wfuncid LABEL "Cod.Func" SKIP
+    WITH TITLE "DELETAR FUNCIONARIO" CENTERED
     1 COLUMN 1 DOWN ROW 3.
 DEF VAR del-answer AS LOGICAL LABEL "Delete?".
 
 REPEAT:
-    PROMPT-FOR funcionario.idFunc WITH FRAME func-frame.
-    FIND funcionario WHERE funcionario.idFunc = INPUT funcionario.idFunc EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
+    ON 'F5' OF wfuncid IN FRAME func-frame DO:
+        RUN browse.p (OUTPUT vRetFunc, OUTPUT vRetCargo, OUTPUT vRetCidade).
+        IF vRetFunc <> 0 THEN wfuncid = vRetFunc.
+        DISP wfuncid WITH FRAME func-frame.
+    END.
+    
+    UPDATE wfuncid WITH FRAME func-frame.
+    
+    FIND funcionario WHERE funcionario.idFunc = wfuncid EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
     
     IF AVAILABLE funcionario THEN DO:
-        DISPLAY funcionario WITH FRAME func-frame.
+        DISPLAY funcionario.nome       funcionario.cpf     funcionario.rg      funcionario.endereco 
+                funcionario.nascimento funcionario.sexo    funcionario.salario funcionario.dataAdm
+                funcionario.dataDemi   funcionario.idCargo funcionario.idCidade
+                WITH FRAME func-frame.
         
         del-answer = NO.
         UPDATE del-answer WITH FRAME func-frame.

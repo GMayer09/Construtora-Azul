@@ -14,6 +14,8 @@ DEF VAR submenu3 AS CHAR EXTENT 4 FORM "x(17)"
 DEF VAR submenu4 AS CHAR EXTENT 4 FORM "x(18)"
     INITIAL ["1.Cadastrar Cidade", "2.Consultar Cidade",
     "3.Alterar Cidade", "4.Deletar Cidade"].
+DEF VAR submenu5 AS CHAR EXTENT 2 FORM "x(22)"
+    INITIAL ["1.Consultar Historico", "2.Deletar Historico"].
 
 DEF FRAME f-menu WITH TITLE "MENU PRINCIPAL" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
@@ -24,6 +26,8 @@ DEF FRAME f-submenu2 WITH TITLE "MENU DEPENDENTE" CENTERED
 DEF FRAME f-submenu3 WITH TITLE "MENU CARGO" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
 DEF FRAME f-submenu4 WITH TITLE "MENU CIDADE" CENTERED
+    1 COLUMN 1 DOWN NO-LABELS ROW 3.
+DEF FRAME f-submenu5 WITH TITLE "HISTORICO" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
     
 DEF VAR v-choose AS INT NO-UNDO.
@@ -37,8 +41,6 @@ DO TRANSACTION:
         v-choose = FRAME-INDEX.
         HIDE FRAME f-menu.
         
-        IF LASTKEY = KEYCODE("ESC") THEN LEAVE main-block.
-        
         IF v-choose > 0 AND v-choose <= 6
         THEN DO:
             
@@ -46,7 +48,7 @@ DO TRANSACTION:
             IF v-choose = 2 THEN DISPLAY submenu2 WITH FRAME f-submenu2.
             IF v-choose = 3 THEN DISPLAY submenu3 WITH FRAME f-submenu3.
             IF v-choose = 4 THEN DISPLAY submenu4 WITH FRAME f-submenu4.
-            IF v-choose = 5 THEN RUN historico.p.
+            IF v-choose = 5 THEN DISPLAY submenu5 WITH FRAME f-submenu5.
             IF v-choose = 6 THEN RUN relatorio.p.
             
             IF v-choose = 1 THEN DO:
@@ -99,6 +101,17 @@ DO TRANSACTION:
                     ELSE IF v-subchoose = 4 THEN RUN cidadeDel.p.
                 END.
             END.
+            
+            ELSE IF v-choose = 5 THEN DO:
+                CHOOSE FIELD submenu5 AUTO-RETURN WITH FRAME f-submenu5.
+                v-subchoose = FRAME-INDEX.
+                HIDE FRAME f-submenu4.
+                
+                IF LASTKEY <> KEYCODE("ESC") THEN DO:
+                    IF v-subchoose = 1 THEN RUN historico.p.
+                    ELSE IF v-subchoose = 2 THEN RUN historicoDel.p.
+                END.
+            END.    
         END.
     END.
 END.

@@ -67,6 +67,8 @@ REPEAT:
         DISP wfuncid WITH FRAME func-frame.
     END.
     
+    IF LASTKEY = KEYCODE("ESC") THEN LEAVE MAIN-LOOP.
+    
     UPDATE wfuncid WITH FRAME func-frame.
     ASSIGN v-idCargo  = 0
            v-idCidade = 0.
