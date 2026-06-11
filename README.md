@@ -2,4 +2,3 @@
 > Projeto para o estágio na StationSoft.
 ## Requisitos para o projeto:
 - `Progress 4GL`;
-- `OpenEdge ABL`.
