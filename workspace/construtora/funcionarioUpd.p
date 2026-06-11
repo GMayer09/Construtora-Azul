@@ -9,6 +9,7 @@ DEF VAR vRetCidade  AS INT NO-UNDO.
 
 DEF VAR v-idCargo AS INT NO-UNDO.
 DEF VAR v-idCidade AS INT NO-UNDO.
+DEF VAR v-acao AS INT INITIAL 1 FORM "9" NO-UNDO.
 
 FUNCTION getLastIdFunc RETURN INT ():
     DEF BUFFER funcionario FOR funcionario.
@@ -17,7 +18,6 @@ FUNCTION getLastIdFunc RETURN INT ():
     
     RETURN IF AVAIL funcionario THEN funcionario.idFunc ELSE 0.
 END FUNCTION.
-
 
 FUNCTION getLastIdHist RETURN INT ():
     DEF BUFFER historico FOR historico.
@@ -55,7 +55,8 @@ FUNCTION ocupouCargoAnterior RETURN LOGICAL (INPUT p-idFunc AS INT, INPUT p-idCa
     RETURN IF AVAIL b-historico THEN TRUE ELSE FALSE.
 END FUNCTION.
 
-DEF FRAME func-frame 
+DEF FRAME func-frame
+    v-acao LABEL "1.Cadas/2.Altera" SKIP
     wfuncid LABEL "Cod.Func" SKIP
     WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
 
@@ -67,18 +68,29 @@ REPEAT:
         DISP wfuncid WITH FRAME func-frame.
     END.
     
+    ASSIGN wfuncid = 0.
+    
+    DISPLAY v-acao wfuncid WITH FRAME func-frame.
+    UPDATE v-acao WITH FRAME func-frame.
+    
+    IF v-acao <> 1 AND v-acao <> 2 THEN DO:
+        MESSAGE "Erro: opcao invalida!" VIEW-AS ALERT-BOX ERROR.
+        NEXT MAIN-LOOP.
+    END.
+    
     IF LASTKEY = KEYCODE("ESC") THEN LEAVE MAIN-LOOP.
     
-    UPDATE wfuncid WITH FRAME func-frame.
+
     ASSIGN v-idCargo  = 0
            v-idCidade = 0.
     
-    FIND funcionario WHERE funcionario.idFunc = wfuncid EXCLUSIVE-LOCK NO-ERROR.
-    
-    IF NOT AVAIL funcionario THEN DO:
+    IF v-acao = 1 THEN DO:
         CREATE funcionario.
-        ASSIGN funcionario.idFunc = getLastIdFunc() + 1.
-       
+        ASSIGN funcionario.idFunc = getLastIdFunc() + 1
+               wfuncid            = funcionario.idFunc.
+        
+        DISPLAY wfuncid WITH FRAME func-frame.
+        
         UPDATE funcionario.nome       funcionario.cpf   funcionario.rg      funcionario.endereco
                funcionario.nascimento funcionario.sexo  funcionario.salario funcionario.dataAdm
                funcionario.dataDemi   v-idCargo LABEL "Cod. Cargo" v-idCidade LABEL "Cod. Cidade" WITH FRAME func-frame.
@@ -94,13 +106,21 @@ REPEAT:
         END.
         
         ASSIGN 
-            funcionario.idCargo  = v-idCargo.
+            funcionario.idCargo  = v-idCargo
             funcionario.idCidade = v-idCidade.
             
         HIDE FRAME func-frame.
         MESSAGE "Funcionario cadastrado com sucesso!" VIEW-AS ALERT-BOX.      
     END.
      ELSE DO:
+        UPDATE wfuncid WITH FRAME func-frame.
+        FIND funcionario WHERE funcionario.idFunc = wfuncid EXCLUSIVE-LOCK NO-ERROR. 
+        
+        IF NOT AVAIL funcionario THEN DO:
+            MESSAGE "Erro: Funcionario nao encontrado para alteracao!" VIEW-AS ALERT-BOX ERROR.
+            NEXT MAIN-LOOP.
+        END.
+        
         ASSIGN cargo-ant   = funcionario.idCargo
                salario-ant = funcionario.salario
                data-ini    = funcionario.dataAdm
