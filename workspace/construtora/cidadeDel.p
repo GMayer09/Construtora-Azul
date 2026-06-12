@@ -1,5 +1,6 @@
 DEF FRAME cidade-frame WITH TITLE "DELETAR CIDADE" CENTERED
     1 COLUMN 1 DOWN ROW 3.
+
 DEF VAR del-answer AS LOGICAL LABEL "Delete?".
 
 REPEAT:
@@ -7,7 +8,7 @@ REPEAT:
     FIND cidade WHERE cidade.idCidade = INPUT cidade.idCidade EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
     
     IF AVAILABLE cidade THEN DO:
-        DISPLAY cidade WITH FRAME cidade-frame.
+        DISP cidade WITH FRAME cidade-frame.
         
         del-answer = NO.
         UPDATE del-answer WITH FRAME cidade-frame.

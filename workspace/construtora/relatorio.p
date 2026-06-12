@@ -19,7 +19,7 @@ FOR EACH funcionario WHERE funcionario.dataDemi = ? BREAK BY funcionario.idCargo
         v-idDepe = v-idDepe + 1.
     END.
     
-    DISPLAY funcionario.idCargo WHEN FIRST-OF(funcionario.idCargo) b-cargo.nome WHEN FIRST-OF(funcionario.idCargo)
+    DISP funcionario.idCargo WHEN FIRST-OF(funcionario.idCargo) b-cargo.nome WHEN FIRST-OF(funcionario.idCargo)
             funcionario.nome salario v-idDepe WITH FRAME f-relatorio.
     
     ACCUMULATE funcionario.salario(TOTAL BY funcionario.idCargo).
@@ -28,7 +28,7 @@ FOR EACH funcionario WHERE funcionario.dataDemi = ? BREAK BY funcionario.idCargo
     IF LAST-OF (funcionario.idCargo) THEN DO:
         UNDERLINE funcionario.salario v-idDepe WITH FRAME f-relatorio.
         
-        DISPLAY "TOTAL CARGO:" @ funcionario.nome
+        DISP "TOTAL CARGO:" @ funcionario.nome
                 ACCUM TOTAL BY funcionario.idCargo funcionario.salario @ funcionario.salario
                 ACCUM TOTAL BY funcionario.idCargo v-idDepe @ v-idDepe
                 WITH FRAME f-relatorio.

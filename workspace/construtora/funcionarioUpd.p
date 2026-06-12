@@ -11,6 +11,11 @@ DEF VAR v-idCargo AS INT NO-UNDO.
 DEF VAR v-idCidade AS INT NO-UNDO.
 DEF VAR v-acao AS INT INITIAL 1 FORM "9" NO-UNDO.
 
+DEF FRAME func-frame
+    v-acao LABEL "1.Cadas/2.Altera" SKIP
+    wfuncid LABEL "Cod.Func" SKIP
+    WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
+
 FUNCTION getLastIdFunc RETURN INT ():
     DEF BUFFER funcionario FOR funcionario.
     
@@ -55,14 +60,9 @@ FUNCTION ocupouCargoAnterior RETURN LOGICAL (INPUT p-idFunc AS INT, INPUT p-idCa
     RETURN IF AVAIL b-historico THEN TRUE ELSE FALSE.
 END FUNCTION.
 
-DEF FRAME func-frame
-    v-acao LABEL "1.Cadas/2.Altera" SKIP
-    wfuncid LABEL "Cod.Func" SKIP
-    WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
-
 MAIN-LOOP:
 REPEAT:
-    ON 'F5' OF wfuncid IN FRAME func-frame DO:
+    ON 'F5' ANYWHERE DO:
         RUN browse.p (OUTPUT vRetFunc, OUTPUT vRetCargo, OUTPUT vRetCidade).
         IF vRetFunc <> 0 THEN wfuncid = vRetFunc.
         DISP wfuncid WITH FRAME func-frame.
@@ -70,7 +70,7 @@ REPEAT:
     
     ASSIGN wfuncid = 0.
     
-    DISPLAY v-acao wfuncid WITH FRAME func-frame.
+    DISP v-acao wfuncid WITH FRAME func-frame.
     UPDATE v-acao WITH FRAME func-frame.
     
     IF v-acao <> 1 AND v-acao <> 2 THEN DO:
@@ -80,7 +80,6 @@ REPEAT:
     
     IF LASTKEY = KEYCODE("ESC") THEN LEAVE MAIN-LOOP.
     
-
     ASSIGN v-idCargo  = 0
            v-idCidade = 0.
     
@@ -89,7 +88,7 @@ REPEAT:
         ASSIGN funcionario.idFunc = getLastIdFunc() + 1
                wfuncid            = funcionario.idFunc.
         
-        DISPLAY wfuncid WITH FRAME func-frame.
+        DISP wfuncid WITH FRAME func-frame.
         
         UPDATE funcionario.nome       funcionario.cpf   funcionario.rg      funcionario.endereco
                funcionario.nascimento funcionario.sexo  funcionario.salario funcionario.dataAdm
@@ -112,6 +111,7 @@ REPEAT:
         HIDE FRAME func-frame.
         MESSAGE "Funcionario cadastrado com sucesso!" VIEW-AS ALERT-BOX.      
     END.
+    
      ELSE DO:
         UPDATE wfuncid WITH FRAME func-frame.
         FIND funcionario WHERE funcionario.idFunc = wfuncid EXCLUSIVE-LOCK NO-ERROR. 
@@ -161,6 +161,7 @@ REPEAT:
                    historico.dataFim = TODAY.
             ASSIGN funcionario.dataAdm = TODAY.
         END.
+        
         HIDE FRAME func-frame.
         MESSAGE "Funcionario alterado com sucesso!" VIEW-AS ALERT-BOX.
     END.

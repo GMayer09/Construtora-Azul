@@ -6,7 +6,7 @@ REPEAT:
     FIND cidade WHERE cidade.idCidade = INPUT cidade.idCidade NO-LOCK NO-ERROR NO-WAIT. 
     
     IF AVAIL cidade THEN DO:
-        DISPLAY cidade WITH FRAME cidade-frame.
+        DISP cidade WITH FRAME cidade-frame.
         HIDE FRAME cidade-frame.
     END.
     

@@ -1,3 +1,6 @@
+DEF FRAME cargo-frame WITH TITLE "CADASTRAR CARGO" CENTERED
+    1 COLUMN 1 DOWN ROW 3.
+
 FUNCTION getLastIdCargo RETURN INT ():
     DEF BUFFER cargo FOR cargo.
 
@@ -5,9 +8,6 @@ FUNCTION getLastIdCargo RETURN INT ():
 
     RETURN IF AVAIL cargo THEN cargo.idCargo ELSE 0.
 END FUNCTION.
-
-DEF FRAME cargo-frame WITH TITLE "CADASTRAR CARGO" CENTERED
-    1 COLUMN 1 DOWN ROW 3.
 
 REPEAT:        
     CREATE cargo.

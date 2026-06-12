@@ -1,3 +1,6 @@
+DEF VAR v-choose AS INT NO-UNDO.
+DEF VAR v-subchoose AS INT NO-UNDO.
+
 DEF VAR menu AS CHAR EXTENT 6 FORM "x(29)"
     INITIAL ["1.Gerenciamento Funcionario", "2.Gerenciamento Dependente",
     "3.Gerencimento Cargo", "4.Gerencimento Cidade", "5.Historico", "6.Relatorio"].
@@ -19,6 +22,7 @@ DEF VAR submenu5 AS CHAR EXTENT 2 FORM "x(22)"
 
 DEF FRAME f-menu WITH TITLE "MENU PRINCIPAL" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
+    
 DEF FRAME f-submenu1 WITH TITLE "MENU FUNCIONARIO" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
 DEF FRAME f-submenu2 WITH TITLE "MENU DEPENDENTE" CENTERED
@@ -30,25 +34,20 @@ DEF FRAME f-submenu4 WITH TITLE "MENU CIDADE" CENTERED
 DEF FRAME f-submenu5 WITH TITLE "HISTORICO" CENTERED
     1 COLUMN 1 DOWN NO-LABELS ROW 3.
     
-DEF VAR v-choose AS INT NO-UNDO.
-DEF VAR v-subchoose AS INT NO-UNDO.
-
 main-block:
 DO TRANSACTION:
     REPEAT:
-        DISPLAY menu WITH FRAME f-menu.
+        DISP menu WITH FRAME f-menu.
         CHOOSE FIELD menu AUTO-RETURN WITH FRAME f-menu.
         v-choose = FRAME-INDEX.
         HIDE FRAME f-menu.
         
-        IF v-choose > 0 AND v-choose <= 6
-        THEN DO:
-            
-            IF v-choose = 1 THEN DISPLAY submenu1 WITH FRAME f-submenu1.
-            IF v-choose = 2 THEN DISPLAY submenu2 WITH FRAME f-submenu2.
-            IF v-choose = 3 THEN DISPLAY submenu3 WITH FRAME f-submenu3.
-            IF v-choose = 4 THEN DISPLAY submenu4 WITH FRAME f-submenu4.
-            IF v-choose = 5 THEN DISPLAY submenu5 WITH FRAME f-submenu5.
+        IF v-choose > 0 AND v-choose <= 6 THEN DO:
+            IF v-choose = 1 THEN DISP submenu1 WITH FRAME f-submenu1.
+            IF v-choose = 2 THEN DISP submenu2 WITH FRAME f-submenu2.
+            IF v-choose = 3 THEN DISP submenu3 WITH FRAME f-submenu3.
+            IF v-choose = 4 THEN DISP submenu4 WITH FRAME f-submenu4.
+            IF v-choose = 5 THEN DISP submenu5 WITH FRAME f-submenu5.
             IF v-choose = 6 THEN RUN relatorio.p.
             
             IF v-choose = 1 THEN DO:

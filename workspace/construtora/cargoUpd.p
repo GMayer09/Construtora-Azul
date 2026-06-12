@@ -1,5 +1,6 @@
 DEF FRAME cargo-frame WITH TITLE "ALTERAR CARGO" CENTERED
     1 COLUMN 1 DOWN ROW 3.
+    
 REPEAT:
     PROMPT-FOR cargo.idCargo WITH FRAME cargo-frame.
     FIND cargo WHERE cargo.idCargo = INPUT cargo.idCargo EXCLUSIVE-LOCK NO-ERROR NO-WAIT.

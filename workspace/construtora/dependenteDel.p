@@ -7,7 +7,7 @@ REPEAT:
     FIND dependente WHERE dependente.idDepe = INPUT dependente.idDepe EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
     
     IF AVAILABLE dependente THEN DO:
-        DISPLAY dependente WITH FRAME depe-frame.
+        DISP dependente WITH FRAME depe-frame.
         
         del-answer = NO.
         UPDATE del-answer WITH FRAME depe-frame.

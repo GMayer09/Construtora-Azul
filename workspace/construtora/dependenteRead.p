@@ -11,8 +11,8 @@ REPEAT:
         FIND FIRST b-displayFunc 
             WHERE b-displayFunc.idFunc = dependente.idFunc NO-LOCK NO-ERROR NO-WAIT.
     
-        DISPLAY dependente WITH FRAME depe-frame.
-        DISPLAY b-displayFunc.nome 
+        DISP dependente WITH FRAME depe-frame.
+        DISP b-displayFunc.nome 
             LABEL "Nome do Func" WITH FRAME depe-frame.
             
         HIDE FRAME depe-frame.

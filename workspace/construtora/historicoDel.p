@@ -7,7 +7,7 @@ REPEAT:
     FIND historico WHERE historico.idHist = INPUT historico.idHist EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
     
     IF AVAILABLE historico THEN DO:
-        DISPLAY historico WITH FRAME hist-frame.
+        DISP historico WITH FRAME hist-frame.
         
         del-answer = NO.
         UPDATE del-answer WITH FRAME hist-frame.

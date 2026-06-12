@@ -24,6 +24,7 @@ PROCEDURE carregaqueryFunc:
                tFunc.nome   = funcionario.nome.
     END.
 END PROCEDURE.
+
 PROCEDURE carregaqueryCargo:
     EMPTY TEMP-TABLE tCargo.
     FOR EACH cargo NO-LOCK:
@@ -32,6 +33,7 @@ PROCEDURE carregaqueryCargo:
                tCargo.nome    = cargo.nome.
     END.
 END PROCEDURE.
+
 PROCEDURE carregaqueryCidade:
     EMPTY TEMP-TABLE tCidade.
     FOR EACH cidade NO-LOCK:
@@ -155,20 +157,24 @@ PROCEDURE p-escolha:
             RUN fmenu-func.
             LEAVE.
         END.
+        
         ELSE IF v-opcao = 2 THEN DO:
             HIDE FRAME f-escolha.
             RUN f-menu-cargo. 
             LEAVE.
         END.
+        
         ELSE IF v-opcao = 3 THEN DO:
             HIDE FRAME f-escolha.
             RUN f-menu-cidade.
             LEAVE.
         END.
+        
         ELSE DO:
             MESSAGE "Opcao Invalida!" VIEW-AS ALERT-BOX WARNING.
         END.
     END.
+    
     HIDE FRAME f-escolha NO-PAUSE.
 END PROCEDURE.
 

@@ -14,9 +14,9 @@ REPEAT:
         FIND FIRST b-displayCargo
             WHERE b-displayCargo.idCargo = historico.idCargo NO-LOCK NO-ERROR NO-WAIT.
         
-        DISPLAY b-displayFunc.nome WITH FRAME historico-frame.
-        DISPLAY b-displayCargo.nome WITH FRAME historico-frame.
-        DISPLAY historico WITH FRAME historico-frame.
+        DISP b-displayFunc.nome WITH FRAME historico-frame.
+        DISP b-displayCargo.nome WITH FRAME historico-frame.
+        DISP historico WITH FRAME historico-frame.
         
         HIDE FRAME historico-frame.
     END.

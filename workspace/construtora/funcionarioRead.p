@@ -14,7 +14,7 @@ DEF BUFFER b-displayCidade FOR cidade.
 
 MAIN-LOOP:
 REPEAT ON ENDKEY UNDO, LEAVE:
-    ON 'F5' OF wfuncid IN FRAME func-frame DO:
+    ON 'F5' ANYWHERE DO:
         RUN browse.p (OUTPUT vRetFunc, OUTPUT vRetCargo, OUTPUT vRetCidade).
         IF vRetFunc <> 0 THEN wfuncid = vRetFunc.
         DISP wfuncid WITH FRAME func-frame.
@@ -30,7 +30,7 @@ REPEAT ON ENDKEY UNDO, LEAVE:
         FIND FIRST b-displayCidade 
             WHERE b-displayCidade.idCidade = funcionario.idCidade NO-LOCK NO-ERROR NO-WAIT.
         
-        DISPLAY funcionario.nome       funcionario.cpf     funcionario.rg      funcionario.endereco 
+        DISP funcionario.nome       funcionario.cpf     funcionario.rg      funcionario.endereco 
                 funcionario.nascimento funcionario.sexo    funcionario.salario funcionario.dataAdm
                 funcionario.dataDemi   funcionario.idCargo b-displayCargo.nome funcionario.idCidade
                 b-displayCidade.nome   b-displayCidade.estado
