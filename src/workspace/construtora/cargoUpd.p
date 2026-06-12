@@ -1,11 +1,13 @@
 DEF VAR vRetCargo   AS INT NO-UNDO.
 DEF VAR v-idCargo AS INT NO-UNDO.
 
-DEF FRAME cargo-frame WITH TITLE "ALTERAR CARGO" CENTERED
+DEF FRAME cargo-frame 
+    v-idCargo LABEL "Cod.Cargo" SKIP
+    WITH TITLE "ALTERAR CARGO" CENTERED
     1 COLUMN 1 DOWN ROW 3.
     
 REPEAT:
-    ON 'F5' ANYWHERE DO:
+    ON 'F5' OF v-idCargo IN FRAME cargo-frame DO:
         RUN browseCargo.p (OUTPUT vRetCargo).
         
         IF FOCUS:NAME = "v-idCargo" AND vRetCargo <> 0 THEN DO:

@@ -1,11 +1,13 @@
 DEF VAR vRetCidade  AS INT NO-UNDO.
 DEF VAR v-idCidade AS INT NO-UNDO.
 
-DEF FRAME cidade-frame WITH TITLE "ALTERAR CIDADE" CENTERED
+DEF FRAME cidade-frame 
+    v-idCidade LABEL "Cod.Cidade" SKIP
+    WITH TITLE "ALTERAR CIDADE" CENTERED
     1 COLUMN 1 DOWN ROW 3.
     
 REPEAT:
-    ON 'F5' ANYWHERE DO:
+    ON 'F5' OF v-idCidade IN FRAME cidade-frame DO:
         RUN browseCidade.p (OUTPUT vRetCidade).
         
         IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:

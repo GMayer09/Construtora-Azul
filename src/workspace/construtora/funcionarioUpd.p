@@ -14,6 +14,11 @@ DEF VAR v-acao AS INT INITIAL 1 FORM "9" NO-UNDO.
 DEF FRAME func-frame
     v-acao LABEL "1.Cadas/2.Altera" SKIP
     wfuncid LABEL "Cod.Func" SKIP
+    funcionario.nome       funcionario.cpf   funcionario.rg      funcionario.endereco
+    funcionario.nascimento funcionario.sexo  funcionario.salario funcionario.dataAdm
+    funcionario.dataDemi
+    v-idCargo LABEL "Cod.Cargo" SKIP
+    v-idCidade LABEL "Cod.Cidade" SKIP
     WITH TITLE "FUNCIONARIO" CENTERED 1 COLUMN 1 DOWN ROW 3.
 
 FUNCTION getLastIdFunc RETURN INT ():
@@ -62,20 +67,29 @@ END FUNCTION.
 
 MAIN-LOOP:
 REPEAT:
-    ON 'F5' ANYWHERE DO:
-        RUN browse.p (OUTPUT vRetFunc, OUTPUT vRetCargo, OUTPUT vRetCidade).
+    ON 'F5' OF wfuncid IN FRAME func-frame DO:
+        RUN browseFunc.p (OUTPUT vRetFunc).
         
         IF FOCUS:NAME = "wfuncid" AND vRetFunc <> 0 THEN DO:
             wfuncid = vRetFunc.
             DISP wfuncid WITH FRAME func-frame.
         END.
+    END.
+    
+    ON 'F5' OF v-idCargo IN FRAME func-frame DO:
+        RUN browseCargo.p (OUTPUT vRetCargo).
         
-        ELSE IF FOCUS:NAME = "v-idCargo" AND vRetCargo <> 0 THEN DO:
+        IF FOCUS:NAME = "v-idCargo" AND vRetCargo <> 0 THEN DO:
             v-idCargo = vRetCargo.
             FOCUS:SCREEN-VALUE = STRING(vRetCargo). 
         END.
+        RETURN.
+    END.
+    
+    ON 'F5' OF v-idCidade IN FRAME func-frame DO:
+        RUN browseCidade.p (OUTPUT vRetCidade).
         
-        ELSE IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:
+        IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:
             v-idCidade = vRetCidade.
             FOCUS:SCREEN-VALUE = STRING(vRetCidade).
         END.

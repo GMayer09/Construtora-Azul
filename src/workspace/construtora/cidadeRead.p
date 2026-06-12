@@ -7,7 +7,7 @@ DEF FRAME cidade-frame
     1 COLUMN 1 DOWN ROW 3.
 
 REPEAT:
-    ON 'F5' ANYWHERE DO:
+    ON 'F5' OF v-idCidade IN FRAME cidade-frame DO:
         RUN browseCidade.p (OUTPUT vRetCidade).
         
         IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:

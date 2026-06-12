@@ -15,7 +15,7 @@ PROCEDURE carregaqueryCidade:
     END.
 END PROCEDURE.
 
-PROCEDURE f-menu-cidade:
+PROCEDURE fmenu-cidade:
     DEF QUERY q-cidade FOR tCidade.
     
     DEF BROWSE b-cidade QUERY q-cidade
@@ -47,4 +47,4 @@ PROCEDURE f-menu-cidade:
     HIDE FRAME f-cidade NO-PAUSE.
 END PROCEDURE.
 
-RUN f-menu-cidade.
+RUN fmenu-cidade.

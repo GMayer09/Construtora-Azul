@@ -1,7 +1,7 @@
-DEF FRAME cargo-frame WITH TITLE "CADASTRAR CARGO" CENTERED
+DEF FRAME cargo-frame 
+    WITH TITLE "CADASTRAR CARGO" CENTERED
     1 COLUMN 1 DOWN ROW 3.
 
-DEF VAR vRetCargo   AS INT NO-UNDO.
 DEF VAR v-idCargo AS INT NO-UNDO.
 
 FUNCTION getLastIdCargo RETURN INT ():
@@ -13,16 +13,6 @@ FUNCTION getLastIdCargo RETURN INT ():
 END FUNCTION.
 
 REPEAT:
-    ON 'F5' ANYWHERE DO:
-        RUN browseCargo.p (OUTPUT vRetCargo).
-        
-        IF FOCUS:NAME = "v-idCargo" AND vRetCargo <> 0 THEN DO:
-            v-idCargo = vRetCargo.
-            FOCUS:SCREEN-VALUE = STRING(vRetCargo). 
-        END.
-        RETURN.
-    END.
-    
     ASSIGN v-idCargo = 0.
     
     CREATE cargo.

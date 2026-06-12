@@ -1,8 +1,6 @@
 DEF VAR wfuncid AS INT NO-UNDO.
 
 DEF VAR vRetFunc    AS INT NO-UNDO.
-DEF VAR vRetCargo   AS INT NO-UNDO.
-DEF VAR vRetCidade  AS INT NO-UNDO.
 
 DEF FRAME func-frame
     wfuncid LABEL "Cod.Func" SKIP
@@ -14,14 +12,15 @@ DEF BUFFER b-displayCidade FOR cidade.
 
 MAIN-LOOP:
 REPEAT ON ENDKEY UNDO, LEAVE:
-    ON 'F5' ANYWHERE DO:
-        RUN browse.p (OUTPUT vRetFunc, OUTPUT vRetCargo, OUTPUT vRetCidade).
+    ON 'F5' OF wfuncid IN FRAME func-frame DO:
+        RUN browseFunc.p (OUTPUT vRetFunc).
         IF vRetFunc <> 0 THEN wfuncid = vRetFunc.
         DISP wfuncid WITH FRAME func-frame.
     END.
     
-    UPDATE wfuncid WITH FRAME func-frame.
+    ASSIGN wfuncid = 0.
     
+    UPDATE wfuncid WITH FRAME func-frame. 
     FIND funcionario WHERE funcionario.idFunc = wfuncid NO-LOCK NO-ERROR NO-WAIT.
     
     IF AVAIL funcionario THEN DO:

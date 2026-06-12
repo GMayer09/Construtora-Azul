@@ -1,4 +1,3 @@
-DEF VAR vRetCidade  AS INT NO-UNDO.
 DEF VAR v-idCidade AS INT NO-UNDO.
 
 DEF FRAME cidade-frame WITH TITLE "CADASTRAR CIDADE" CENTERED
@@ -12,17 +11,7 @@ FUNCTION getLastIdCidade RETURN INT ():
     RETURN IF AVAIL cidade THEN cidade.idCidade ELSE 0.
 END FUNCTION.
 
-REPEAT:
-    ON 'F5' ANYWHERE DO:
-        RUN browseCidade.p (OUTPUT vRetCidade).
-        
-        IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:
-            v-idCidade = vRetCidade.
-            FOCUS:SCREEN-VALUE = STRING(vRetCidade).
-        END.
-        RETURN.
-    END.
-    
+REPEAT:    
     ASSIGN v-idCidade = 0.
     
     CREATE cidade.

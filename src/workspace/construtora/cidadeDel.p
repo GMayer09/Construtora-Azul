@@ -9,7 +9,7 @@ DEF FRAME cidade-frame
 DEF VAR del-answer AS LOGICAL LABEL "Delete?".
 
 REPEAT:
-    ON 'F5' ANYWHERE DO:
+    ON 'F5' OF v-idCidade IN FRAME cidade-frame DO:
         RUN browseCidade.p (OUTPUT vRetCidade).
         
         IF FOCUS:NAME = "v-idCidade" AND vRetCidade <> 0 THEN DO:

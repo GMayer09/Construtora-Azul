@@ -15,7 +15,7 @@ PROCEDURE carregaqueryCargo:
     END.
 END PROCEDURE.
 
-PROCEDURE f-menu-cargo:
+PROCEDURE fmenu-cargo:
     DEF QUERY q-cargo FOR tCargo.
     
     DEF BROWSE b-cargo QUERY q-cargo
@@ -47,4 +47,4 @@ PROCEDURE f-menu-cargo:
     HIDE FRAME f-cargo NO-PAUSE.
 END PROCEDURE.
 
-RUN f-menu-cargo.
+RUN fmenu-cargo.
