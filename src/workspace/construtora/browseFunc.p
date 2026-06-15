@@ -20,7 +20,7 @@ PROCEDURE fmenu-func:
     
     DEF BROWSE b-func QUERY q-func
         DISP   idFunc COLUMN-LABEL "ID"
-               nome   COLUMN-LABEL "Nome" FORMAT "x(30)"
+               nome   COLUMN-LABEL "Nome" FORM "x(20)"
         WITH 6 DOWN NO-BOX.
     
     DEF FRAME f-func 

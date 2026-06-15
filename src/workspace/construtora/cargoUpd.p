@@ -17,6 +17,8 @@ REPEAT:
         RETURN.
     END.
     
+    ASSIGN v-idCargo = 0.
+    
     UPDATE v-idCargo WITH FRAME cargo-frame.
     FIND cargo WHERE cargo.idCargo = v-idCargo EXCLUSIVE-LOCK NO-ERROR NO-WAIT.
     
